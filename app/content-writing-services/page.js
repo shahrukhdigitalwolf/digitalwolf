@@ -3,14 +3,14 @@ import ServiceHeroSection from '../common/ServiceHeroSection'
 import ServicesSecondSec from '../common/ServicesSecondSec'
 import OurKeypoints from '../common/OurKeypoints'
 import Conclusion from '../common/Conclusion'
-import digitalMarketing from '../data/digital-marketing'
+import contentWriting from '../data/content-writing-services'
 
-function DigitalMarketing() {
+function ContentWritingServices() {
 
   return (
     <>
     {
-      digitalMarketing.map((data)=>{
+      contentWriting.map((data)=>{
         return(
           <>
             <ServiceHeroSection 
@@ -62,4 +62,4 @@ function DigitalMarketing() {
   )
 }
 
-export default DigitalMarketing
+export default ContentWritingServices

@@ -3,21 +3,21 @@ import ServiceHeroSection from '../common/ServiceHeroSection'
 import ServicesSecondSec from '../common/ServicesSecondSec'
 import OurKeypoints from '../common/OurKeypoints'
 import Conclusion from '../common/Conclusion'
-import digitalMarketing from '../data/digital-marketing'
+import ppcMarketing from '../data/ppc-marketing'
 
-function DigitalMarketing() {
+function PpcMarketing() {
 
   return (
     <>
     {
-      digitalMarketing.map((data)=>{
+      ppcMarketing.map((data)=>{
         return(
           <>
             <ServiceHeroSection 
               headText1={data.headText1} 
               headText2={data.headText2} 
               headText3={data.headText3} 
-              featureImg={data.featureImg} 
+              featureImg={data.featureImg}
             />
             <div className='py-10'>
               <ServicesSecondSec 
@@ -47,12 +47,12 @@ function DigitalMarketing() {
               keyPointsCardDesc2={data.keyPointsCardDesc2}
               keyPointsCardHead3={data.keyPointsCardHead3}
               keyPointsCardDesc3={data.keyPointsCardDesc3}
-              
-              display={data.display}
+              keyPointsCardHead4={data.keyPointsCardHead4}
+              keyPointsCardDesc4={data.keyPointsCardDesc4}
             />
             <Conclusion
-               conclusionHead={data.conclusionHead}
-               conclusionDesc={data.conclusionDesc}
+              conclusionHead={data.conclusionHead}
+              conclusionDesc={data.conclusionDesc}
             />
           </>
         )
@@ -62,4 +62,4 @@ function DigitalMarketing() {
   )
 }
 
-export default DigitalMarketing
+export default PpcMarketing

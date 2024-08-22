@@ -1,0 +1,45 @@
+const bulkMessage = [
+    {
+        headText1 : '[SMS marketing services]',
+        headText2 : 'SMS Marketing Services',
+        headText3 : 'The best app development company in India',
+        featureImg : '/img/services/business-people-working-laptop-meeting.jpg',
+
+        ourServicesText1 : `We are bulk SMS service provider in Kolkata`,
+        ourServicesText2 : `We provide bulk SMS and text massage services so that your brand may swiftly deliver messages to thousands of your clients. You can schedule your automated SMSs and SMS campaigns by using our SMS API. You may personalize your sender ID with the help of our bulk SMS gateway. Our bulk SMS services resemble what was once referred to as a message for broadcasting a brand. You can send bulk SMSs by entering the text message and uploading the list of your intended audience simply.`,
+        ourServicesImg1 : '/img/services/businesspeople.jpg',
+        ourServicesImg2 : '/img/services/searching-engine-optimizing.jpg',
+        ourServicesImg3 : '/img/services/seo-links.jpg',
+        ourServicesText3 : `Get In Touch with Digital Wolf`,
+        ourServicesText4 : `We provide numerous types of Bulk SMS services: Commercial SMS is used to communicate deals and promotions to your clients. PIN SMS which is used to send a code for the registration of new users and the verification of payments. SMS transactions provide to send notifications such as order confirmations and delivery notifications. By using our services, you can communicate with your clients promptly and consistently. Your business can get real-time analytics which helps make decisions within your organization by using information like delivery rates, delivery failures, and their causes.`,
+
+        ourServicesCardTextHead1 : '',
+        ourServicesCardTextDesc1 : 'Construct text marketing software',
+
+        ourServicesCardTextHead2 : '',
+        ourServicesCardTextDesc2 : 'Manage your SMS campaign with us',
+
+        ourServicesCardTextHead3 : '',
+        ourServicesCardTextDesc3 : 'Use mobile technology to communicate with clients',
+
+        ourServicesCardTextHead4 : '',
+        ourServicesCardTextDesc4 : 'Efficient professionals provide effective services',
+
+        keyPointsHead : `Bulk message services <br/> in Kolkata key points`,
+
+        keyPointsCardHead1 : 'Long-lasting customer relations',
+        keyPointsCardDesc1 : 'As a top SMS marketing agency, Digital Wolf creates and constructs text marketing software. Our created software is user-friendly and enables you to send mass SMS. Our new text messaging platform helps you to manage your SMS campaigns.',
+        
+        keyPointsCardHead2 : `Uphold customer sentiments`,
+        keyPointsCardDesc2 : `Digital Wolf listens to all of your needs regarding bulk SMS marketing services which is the main reason behind our reputation. It is our striking method by which you can make your clients feel important, valuable, and unique.`,
+        
+        keyPointsCardHead3 : `A 360-degree solution to SMS marketing`,
+        keyPointsCardDesc3 : 'We offer you comprehensive solutions for using mobile technology to communicate with a variety of your customers.',
+        
+        conclusionHead: 'Our Conclusive Touch',
+        conclusionDesc: `Our company provides excellent services in the domain of bulk messaging. Our expert team possesses efficient professionals who can offer you effective solutions by providing cutting-edge technologies. We created text message marketing software that helps you to communicate with your target audiences. We provide the service that is associated with the benefits of a smooth experience which you can seek and it is the best part about choosing Digital Wolf for bulk messaging services. We covered all the types like email marketing, reaching a bulk audience via social or SMS marketing that are helpful for your brand's promotion.`,
+
+    },
+]
+
+export default bulkMessage;
