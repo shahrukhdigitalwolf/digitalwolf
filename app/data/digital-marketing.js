@@ -26,15 +26,26 @@ const digitalMarketing = [
         ourServicesCardTextDesc4 : 'Committed to transparency',
 
         keyPointsHead : `Digital marketing <br/> services key points`,
-
-        keyPointsCardHead1 : 'Link building services along with SEO',
-        keyPointsCardDesc1 : 'Our digital marketing specialist will post original content for blogs, articles, social bookmarking sites, directories and submission platforms to increase authority and subsequent rankings of your brand.',
-        
-        keyPointsCardHead2 : 'In depth keyword research',
-        keyPointsCardDesc2 : 'We are aware of the keywords that being used by your consumers, so we will concentrate on using those keywords which is appropriate for your company. Keywords and Key phrases are vital for your business marketing.',
-        
-        keyPointsCardHead3 : 'Regular website reviews',
-        keyPointsCardDesc3 : 'We as a top digital marketing company in Kolkata concentrate on the monthly review of your brand’s website which results in a customized and prioritized digital marketing action plan for your website. We plan for the digital marketing strategies that will produce speedy results for you.',
+        keyPoints:[
+            {
+                id:1,
+                keyPointsCardHead : 'Link building services along with SEO',
+                keyPointsCardDesc : 'Our digital marketing specialist will post original content for blogs, articles, social bookmarking sites, directories and submission platforms to increase authority and subsequent rankings of your brand.',
+                marginTop : 'lg:mt-80',
+            },
+            {
+                id:2,
+                keyPointsCardHead : `In depth keyword research`,
+                keyPointsCardDesc : 'We are aware of the keywords that being used by your consumers, so we will concentrate on using those keywords which is appropriate for your company. Keywords and Key phrases are vital for your business marketing.',
+                marginTop : 'lg:mt-56',
+            },
+            {
+                id:3,
+                keyPointsCardHead : 'Regular website reviews',
+                keyPointsCardDesc : 'We as a top digital marketing company in Kolkata concentrate on the monthly review of your brand’s website which results in a customized and prioritized digital marketing action plan for your website. We plan for the digital marketing strategies that will produce speedy results for you.',
+                marginTop : 'lg:mt-28',
+            },
+        ],
         
         conclusionHead: 'Our Conclusive Touch',
         conclusionDesc: 'We, Digital Wolf, stand out as the most affordable SEO company in Kolkata, offering unparalleled expertise and results-driven strategies to elevate businesses in the digital landscape. We have a dedicated team of professionals adept in the latest SEO techniques and algorithms, ensuring our clients achieve maximum online visibility and sustainable growth. Our experts’ tailored approach begins with a comprehensive analysis and understanding of client goals, followed by meticulous optimization of website content, keywords, and backlink profiles. What sets us apart is their commitment to transparency, providing regular updates and detailed reports on campaign progress and performance metrics. ',

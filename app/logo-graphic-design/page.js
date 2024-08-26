@@ -41,12 +41,7 @@ function GraphicsDesign() {
             </div>
             <OurKeypoints
               keyPointsHead={data.keyPointsHead}
-              keyPointsCardHead1={data.keyPointsCardHead1}
-              keyPointsCardDesc1={data.keyPointsCardDesc1}
-              keyPointsCardHead2={data.keyPointsCardHead2}
-              keyPointsCardDesc2={data.keyPointsCardDesc2}
-              keyPointsCardHead3={data.keyPointsCardHead3}
-              keyPointsCardDesc3={data.keyPointsCardDesc3}
+              keyPointsCard={data.keyPoints}
             />
             <Conclusion
               conclusionHead={data.conclusionHead}

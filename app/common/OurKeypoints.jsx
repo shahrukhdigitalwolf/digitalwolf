@@ -12,13 +12,19 @@ function OurKeypoints(props) {
             <p className='text-[30px]'>{parse(props.keyPointsHead)}</p>
         </div>
         <div className='flex flex-wrap gap-y-5 py-5'>
-            <div className='w-[100%] lg:w-[25%] px-3 mb-5'>
-                <div className='bg-[#F8F8F8] px-5 py-5 lg:h-[600px] lg:mt-80'>
-                    <p className='text-[23px] font-bold mb-3'>{props.keyPointsCardHead1}</p>
-                    <p>{props.keyPointsCardDesc1}</p>
-                </div>
-            </div>
-            <div className='w-[100%] lg:w-[25%] px-3 mb-5 '>
+            {
+                props.keyPointsCard.map((ele,i)=>{
+                    return(
+                        <div key={i} className='w-[100%] lg:w-[25%] px-3 mb-5'>
+                            <div className={`bg-[#F8F8F8] px-5 py-5 lg:h-[600px] ${ele.marginTop}`}>
+                                <p className='text-[23px] font-bold mb-3'>{ele.keyPointsCardHead}</p>
+                                <p>{ele.keyPointsCardDesc}</p>
+                            </div>
+                        </div>
+                    )
+                })
+            }
+            {/* <div className='w-[100%] lg:w-[25%] px-3 mb-5 '>
                 <div className='bg-[#F8F8F8] px-5 py-5 lg:h-[600px] lg:mt-56'>
                     <p className='text-[23px] font-bold mb-3'>{props.keyPointsCardHead2}</p>
                     <p>{props.keyPointsCardDesc2}</p>
@@ -30,12 +36,12 @@ function OurKeypoints(props) {
                     <p>{props.keyPointsCardDesc3}</p>
                 </div>
             </div>
-            <div className={`w-[100%] lg:w-[25%] px-3 mb-5`}>
+            <div className={`w-[100%] lg:w-[25%] px-3 mb-5`}> 
                 <div className='bg-[#F8F8F8] px-5 py-5 lg:h-[600px]'>
                     <p className='text-[23px] font-bold mb-3'>{props.keyPointsCardHead4}</p>
                     <p>{props.keyPointsCardDesc4}</p>
                 </div>
-            </div>
+            </div>*/}
         </div>
     </div>
   )
