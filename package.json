@@ -18,6 +18,7 @@
     "@ntegral/react-owl-carousel": "^1.0.1",
     "embla-carousel-autoplay": "^8.1.8",
     "embla-carousel-react": "^8.1.8",
+    "express": "^4.19.2",
     "heroicons": "^2.1.5",
     "html-react-parser": "^5.1.12",
     "jquery": "^3.7.1",
