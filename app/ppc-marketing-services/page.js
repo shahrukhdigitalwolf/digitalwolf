@@ -41,14 +41,7 @@ function PpcMarketing() {
             </div>
             <OurKeypoints
               keyPointsHead={data.keyPointsHead}
-              keyPointsCardHead1={data.keyPointsCardHead1}
-              keyPointsCardDesc1={data.keyPointsCardDesc1}
-              keyPointsCardHead2={data.keyPointsCardHead2}
-              keyPointsCardDesc2={data.keyPointsCardDesc2}
-              keyPointsCardHead3={data.keyPointsCardHead3}
-              keyPointsCardDesc3={data.keyPointsCardDesc3}
-              keyPointsCardHead4={data.keyPointsCardHead4}
-              keyPointsCardDesc4={data.keyPointsCardDesc4}
+              keyPointsCard={data.keyPoints}
             />
             <Conclusion
               conclusionHead={data.conclusionHead}

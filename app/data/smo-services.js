@@ -26,15 +26,26 @@ const smoServices = [
         ourServicesCardTextDesc4 : 'Boost your profitability',
 
         keyPointsHead : `Best Social media <br/> marketing services key points`,
-
-        keyPointsCardHead1 : 'Reach a larger audience base',
-        keyPointsCardDesc1 : 'Nowadays, most people use social media sites or social media networking sites. So, it becomes one of the best platforms for companies to engage their clients and reach out to the audiences broadly. Our effective social media marketing strategies help you to grow your business, engage with the audience, and maintain your social presence. ',
-        
-        keyPointsCardHead2 : 'Objective based planning',
-        keyPointsCardDesc2 : 'Our social media marketing experts can guide you to locate your target market, determine your business goals, and produce interesting material that will be shared on your social media handle. Lastly, our motto is integrating social media with all other facets of your online presence. ',
-        
-        keyPointsCardHead3 : 'Overall social media services ',
-        keyPointsCardDesc3 : 'We, the best social media marketing agency in Kolkata will customize designs of social media marketing plans for your brand and its audience. We must provide you with a broad range of services aimed at boosting your profitability to bring in more clients. Our services include content planning, video distribution, blogger outreach, and fully supported and managed social media campaigns. ',
+        keyPoints:[
+            {
+                id:1,
+                keyPointsCardHead : 'Reach a larger audience base',
+                keyPointsCardDesc : 'Nowadays, most people use social media sites or social media networking sites. So, it becomes one of the best platforms for companies to engage their clients and reach out to the audiences broadly. Our effective social media marketing strategies help you to grow your business, engage with the audience, and maintain your social presence. ',
+                marginTop : 'lg:mt-80',
+            },
+            {
+                id:2,
+                keyPointsCardHead : `Objective based planning`,
+                keyPointsCardDesc : 'Our social media marketing experts can guide you to locate your target market, determine your business goals, and produce interesting material that will be shared on your social media handle. Lastly, our motto is integrating social media with all other facets of your online presence.',
+                marginTop : 'lg:mt-56',
+            },
+            {
+                id:3,
+                keyPointsCardHead : 'Overall social media services',
+                keyPointsCardDesc : 'We, the best social media marketing agency in Kolkata will customize designs of social media marketing plans for your brand and its audience. We must provide you with a broad range of services aimed at boosting your profitability to bring in more clients. Our services include content planning, video distribution, blogger outreach, and fully supported and managed social media campaigns.',
+                marginTop : 'lg:mt-28',
+            },
+        ],
         
 
         conclusionHead: 'Our Conclusive Touch',

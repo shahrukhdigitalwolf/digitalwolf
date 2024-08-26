@@ -26,16 +26,27 @@ const graphicsDesign = [
         ourServicesCardTextDesc4 : 'Highlights your business identity',
 
         keyPointsHead : `Graphic designing <br/> services key points`,
+        keyPoints:[
+            {
+                id:1,
+                keyPointsCardHead : 'Standout Brand Image',
+                keyPointsCardDesc : 'We are a renowned graphic designing company in Kolkata and our customized and distinctive designs for brand logos stand out from your competitors actions. We check the niche, competition, target market, and audiences before designing your brands logo.',
+                marginTop : 'lg:mt-80',
+            },
+            {
+                id:2,
+                keyPointsCardHead : `Fulfills Business Objectives`,
+                keyPointsCardDesc : 'Our main goal as a reputed website design company is to provide you with user-centric solutions that help fulfill your business objectives.We are aware of the keywords that being used by your consumers, so we will concentrate on using those keywords which is appropriate for your company. Keywords and Key phrases are vital for your business marketing.',
+                marginTop : 'lg:mt-56',
+            },
+            {
+                id:3,
+                keyPointsCardHead : 'Cutting Edge Services',
+                keyPointsCardDesc : 'We provide cutting-edge services by using specialized technological tools to create reports that combine appropriate data about your website and your opponents. Today, digital Wolf guides businesses with personalized logo designs and redesigns.',
+                marginTop : 'lg:mt-28',
+            },
+        ],
 
-        keyPointsCardHead1 : 'Standout Brand Image',
-        keyPointsCardDesc1 : 'We are a renowned graphic designing company in Kolkata and our customized and distinctive designs for brand logos stand out from your competitors actions. We check the niche, competition, target market, and audiences before designing your brands logo. ',
-        
-        keyPointsCardHead2 : 'Fulfills Business Objectives',
-        keyPointsCardDesc2 : 'Our main goal as a reputed website design company is to provide you with user-centric solutions that help fulfill your business objectives.',
-        
-        keyPointsCardHead3 : 'Cutting Edge Services',
-        keyPointsCardDesc3 : 'We provide cutting-edge services by using specialized technological tools to create reports that combine appropriate data about your website and your opponents. Today, digital Wolf guides businesses with personalized logo designs and redesigns.',
-        
 
         conclusionHead: 'Our Conclusive Touch',
         conclusionDesc: 'We are the best graphics designing company in Kolkata and can leave a long-lasting impression on your business prospects with our innovative graphic designs. We have a team of skilled professionals who can create an exceptional internet profile for you by using their brilliant artistic skills and professionalism that will help your brand fulfill its objective. A personalized logo helps in building your brand loyalty and highlights your business identity. We have a clear goal that our designed logos should contribute to building your brand. Our business has a reputation because we have a team of skilled graphic designers and artists who can meet the wide range of needs of our clients for brand logo design.'

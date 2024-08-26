@@ -26,18 +26,32 @@ const seoServicess = [
         ourServicesCardTextDesc4 : 'unparallel expertise',
 
         keyPointsHead : `Search  Engine <br/> Optimization <br/> Keypoints`,
-
-        keyPointsCardHead1 : 'Link Building  Services Along With SEO',
-        keyPointsCardDesc1 : 'Our SEO specialist will post original content to blogs, submission platforms, directories, and social bookmarking sites for your brand to increase its authority and subsequent rankings. ',
-        
-        keyPointsCardHead2 : 'In-Depth Keyword Research',
-        keyPointsCardDesc2 : 'we use keywords and key phrases that will affect your business because we are aware of being used by your consumers. We will keep an eye on using those keywords that are appropriate for your company, products, or services. ',
-        
-        keyPointsCardHead3 : 'Regular Audience',
-        keyPointsCardDesc3 : 'Our SEO specialist is always ready to post original content to blogs, articles, social bookmarking sites, and directories to increase your brand’s authority and website’s regular audiences. ',
-        
-        keyPointsCardHead4 : 'Regular Website Reviews',
-        keyPointsCardDesc4 : 'We, the best SEO agency in Kolkata prioritized a complete SEO action plan for your website which can be customized by monthly website reviews by our SEO experts. We concentrate on the SEO strategies that give us the confidence to produce speedy results for you. ',
+        keyPoints:[
+            {
+                id:1,
+                keyPointsCardHead : 'Link Building  Services Along With SEO',
+                keyPointsCardDesc : 'Our SEO specialist will post original content to blogs, submission platforms, directories, and social bookmarking sites for your brand to increase its authority and subsequent rankings. ',
+                marginTop : 'lg:mt-80',
+            },
+            {
+                id:2,
+                keyPointsCardHead : 'In-Depth Keyword Research',
+                keyPointsCardDesc : 'we use keywords and key phrases that will affect your business because we are aware of being used by your consumers. We will keep an eye on using those keywords that are appropriate for your company, products, or services. ',
+                marginTop : 'lg:mt-56',
+            },
+            {
+                id:3,
+                keyPointsCardHead : 'Regular Audience',
+                keyPointsCardDesc : 'Our SEO specialist is always ready to post original content to blogs, articles, social bookmarking sites, and directories to increase your brand’s authority and website’s regular audiences. ',
+                marginTop : 'lg:mt-28',
+            },
+            {
+                id:4,
+                keyPointsCardHead : 'Our Conclusive Touch',
+                keyPointsCardDesc : 'We, the best SEO agency in Kolkata prioritized a complete SEO action plan for your website which can be customized by monthly website reviews by our SEO experts. We concentrate on the SEO strategies that give us the confidence to produce speedy results for you. ',
+                marginTop : 'lg:mt-0',
+            },
+        ],
 
         conclusionHead: 'Our Conclusive Touch',
         conclusionDesc: 'We, Digital Wolf, stand out as the most affordable SEO company in Kolkata, offering unparalleled expertise and results-driven strategies to elevate businesses in the digital landscape. We have a dedicated team of professionals adept in the latest SEO techniques and algorithms, ensuring our clients achieve maximum online visibility and sustainable growth. Our experts’ tailored approach begins with a comprehensive analysis and understanding of client goals, followed by meticulous optimization of website content, keywords, and backlink profiles. What sets us apart is their commitment to transparency, providing regular updates and detailed reports on campaign progress and performance metrics. '

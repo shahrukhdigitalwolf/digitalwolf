@@ -16,9 +16,16 @@ import {
   ArrowPathIcon,
   Bars3Icon,
   ChartPieIcon,
+  ClipboardDocumentListIcon,
   CursorArrowRaysIcon,
+  CommandLineIcon,
+  ComputerDesktopIcon,
+  CodeBracketIcon,
+  DevicePhoneMobileIcon,
+  EnvelopeIcon,
   FingerPrintIcon,
-  SquaresPlusIcon,
+  PresentationChartBarIcon,
+  VideoCameraIcon,
   XMarkIcon,
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
@@ -26,11 +33,17 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 const products = [
-  { name: 'Analytics', description: 'Get a better understanding of your traffic', href: '#', icon: ChartPieIcon },
-  { name: 'Engagement', description: 'Speak directly to your customers', href: '#', icon: CursorArrowRaysIcon },
-  { name: 'Security', description: 'Your customers’ data will be safe and secure', href: '#', icon: FingerPrintIcon },
-  { name: 'Integrations', description: 'Connect with third-party tools', href: '#', icon: SquaresPlusIcon },
-  { name: 'Automations', description: 'Build strategic funnels that will convert', href: '#', icon: ArrowPathIcon },
+  { name: 'Digital Marketing', description: 'Get a better understanding of your traffic', href: '/digital-marketing-services', icon: ChartPieIcon },
+  { name: 'SEO Services', description: 'Speak directly to your customers', href: '/seo-services', icon: PresentationChartBarIcon },
+  { name: 'SMO Services', description: 'Your customers’ data will be safe and secure', href: '/smo-services', icon: FingerPrintIcon },
+  { name: 'Website Development', description: 'Connect with third-party tools', href: '/website-development', icon: CodeBracketIcon },
+  { name: 'PPC Marketing', description: 'Build strategic funnels that will convert', href: '/ppc-marketing-services', icon: CursorArrowRaysIcon },
+  { name: 'Mobile App Development', description: 'Build strategic funnels that will convert', href: '/mobile-app-development-company', icon: DevicePhoneMobileIcon },
+  { name: 'Logo & Graphic Design', description: 'Build strategic funnels that will convert', href: '/logo-graphic-design', icon: ComputerDesktopIcon },
+  { name: 'Facebook Ad Services', description: 'Build strategic funnels that will convert', href: '/facebook-ad-services', icon: VideoCameraIcon },
+  { name: 'Content Writing Services', description: 'Build strategic funnels that will convert', href: '/content-writing-services', icon: ClipboardDocumentListIcon },
+  { name: 'Software Development', description: 'Build strategic funnels that will convert', href: '/software-development-company', icon: CommandLineIcon },
+  { name: 'Bulk Message Services', description: 'Build strategic funnels that will convert', href: '/bulk-message-services', icon: EnvelopeIcon },
 ]
 const callsToAction = [
   { name: 'Watch demo', href: '#', icon: PlayCircleIcon },
@@ -40,15 +53,17 @@ const callsToAction = [
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [stickyHeader, setStickyHeader] = useState(false);
+  const [popoverOpen, setPopoverOpen] = useState(false); // State for Popover open
+
   const headerRef = useRef(null);
 
-  useEffect(()=>{
-    const handleScroll = () =>{
-        setStickyHeader(window.scrollY > headerRef.current.offsetTop);
+  useEffect(() => {
+    const handleScroll = () => {
+      setStickyHeader(window.scrollY > headerRef.current.offsetTop);
     }
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  },[])
+  }, [])
 
   return (
     <header ref={headerRef} className={`bg-transparent w-[100%] ${stickyHeader ? 'sticky' : ''}`}>
@@ -70,22 +85,26 @@ export default function Header() {
           </button>
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
-            <Link href="/" className="text-sm font-semibold leading-6 text-gray-900">
-                Home
-            </Link>
-            <Link href="/about-us" className="text-sm font-semibold leading-6 text-gray-900">
-                About Us
-            </Link>
-          <Popover className="relative">
-            <PopoverButton className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
+          <Link href="/" className="text-sm font-semibold leading-6 text-gray-900 py-5">
+            Home
+          </Link>
+          <Link href="/about-us" className="text-sm font-semibold leading-6 text-gray-900 py-5">
+            About Us
+          </Link>
+          <Popover
+            className="relative"
+            onMouseEnter={() => setPopoverOpen(true)}
+            onMouseLeave={() => setPopoverOpen(false)}
+          >
+            <PopoverButton className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900 group py-5">
               Services
               <ChevronDownIcon aria-hidden="true" className="h-5 w-5 flex-none text-gray-400" />
             </PopoverButton>
             <PopoverPanel
-              transition
-              className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
+              static
+              className={`absolute -left-72 top-full z-[99] w-[50rem] max-w-[50rem] overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5 transition-opacity duration-300 ${popoverOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
             >
-              <div className="p-4">
+              <div className="p-4 grid grid-cols-2">
                 {products.map((item) => (
                   <div
                     key={item.name}
@@ -95,10 +114,10 @@ export default function Header() {
                       <item.icon aria-hidden="true" className="h-6 w-6 text-gray-600 group-hover:text-indigo-600" />
                     </div>
                     <div className="flex-auto">
-                      <a href={item.href} className="block font-semibold text-gray-900">
+                      <Link href={item.href} className="block font-semibold text-gray-900">
                         {item.name}
                         <span className="absolute inset-0" />
-                      </a>
+                      </Link>
                       <p className="mt-1 text-gray-600">{item.description}</p>
                     </div>
                   </div>
@@ -106,42 +125,37 @@ export default function Header() {
               </div>
               <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
                 {callsToAction.map((item) => (
-                  <a
+                  <Link
                     key={item.name}
                     href={item.href}
                     className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100"
                   >
                     <item.icon aria-hidden="true" className="h-5 w-5 flex-none text-gray-400" />
                     {item.name}
-                  </a>
+                  </Link>
                 ))}
               </div>
             </PopoverPanel>
           </Popover>
 
-          <Link href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <Link href="/events" className="text-sm font-semibold leading-6 text-gray-900 py-5">
             Happy To Share
           </Link>
-          <Link href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <Link href="#" className="text-sm font-semibold leading-6 text-gray-900 py-5">
             Blog
           </Link>
-          <Link href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <Link href="/contact-us" className="text-sm font-semibold leading-6 text-gray-900 py-5">
             Contact Us
           </Link>
         </PopoverGroup>
-        
       </nav>
       <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
-        <div className="fixed inset-0 z-10" />
-        <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <div className="fixed inset-0 z-[99]" />
+        <DialogPanel className="fixed inset-y-0 right-0 z-[99] w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img
-                alt=""
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                className="h-8 w-auto"
-              />
+              <Image alt="" src="/img/dw-logo.png" className="h-8 w-auto" width={40} height={50} />
             </a>
             <button
               type="button"
@@ -155,7 +169,7 @@ export default function Header() {
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
-              <Link
+                <Link
                   href="/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
@@ -186,25 +200,27 @@ export default function Header() {
                   </DisclosurePanel>
                 </Disclosure>
                 <Link
-                  href="#"
+                  href="/events"
+                  onClick={() => setMobileMenuOpen(false)}
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Happy To Share
                 </Link>
                 <Link
-                  href="#"
+                  href="/blogs"
+                  onClick={() => setMobileMenuOpen(false)}
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Marketplace
+                  Blogs
                 </Link>
                 <Link
-                  href="#"
+                  href="/contact-us"
+                  onClick={() => setMobileMenuOpen(false)}
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Company
+                  Contact Us
                 </Link>
               </div>
-              
             </div>
           </div>
         </DialogPanel>

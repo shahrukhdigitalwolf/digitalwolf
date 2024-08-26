@@ -26,16 +26,26 @@ const websiteDevelopment = [
         ourServicesCardTextDesc4 : 'Innovative website design',
 
         keyPointsHead : `Best Website Development <br/> services key points`,
-
-        keyPointsCardHead1 : 'Expert solutions in web development ',
-        keyPointsCardDesc1 : 'As we are the best website development company in India, you can find a team of professionals with years of experience in this industry at Digital Wolf. They use the most recent tools and technology to build an innovative website which is aimed at a variety of uses to solve your purpose. ',
-        
-        keyPointsCardHead2 : `E-commerce solutions`,
-        keyPointsCardDesc2 : `We create e-commerce and shopping cart software for online businesses. Our company provides effective solutions as we are the best web development company in Kolkata. `,
-        
-        keyPointsCardHead3 : `Facebook applications`,
-        keyPointsCardDesc3 : 'We are the best website development company in India and also a top provider of web and application development services for Facebook, mobile, and the web.',
-        
+        keyPoints:[
+            {
+                id:1,
+                keyPointsCardHead : 'Expert solutions in web development',
+                keyPointsCardDesc : 'As we are the best website development company in India, you can find a team of professionals with years of experience in this industry at Digital Wolf. They use the most recent tools and technology to build an innovative website which is aimed at a variety of uses to solve your purpose.',
+                marginTop : 'lg:mt-80',
+            },
+            {
+                id:2,
+                keyPointsCardHead : `E-commerce solutions`,
+                keyPointsCardDesc : 'We create e-commerce and shopping cart software for online businesses. Our company provides effective solutions as we are the best web development company in Kolkata.',
+                marginTop : 'lg:mt-56',
+            },
+            {
+                id:3,
+                keyPointsCardHead : 'Facebook applications',
+                keyPointsCardDesc : 'We are the best website development company in India and also a top provider of web and application development services for Facebook, mobile, and the web.',
+                marginTop : 'lg:mt-28',
+            },
+        ],
 
         conclusionHead: 'Our Conclusive Touch',
         conclusionDesc: `Digital Wolf is here for you to assist our clients like you in realizing their full potential. We have experienced web designers in every area of web development. You must put your company online to get more leads and sales. We approach site development holistically, starting with coding and markup and moving on to web design and content. We Develop user-friendly websites for you by making a website dynamic and interactive. We infuse creativity into the website which will be easy to navigate. Our goal is to create search engine-friendly layouts and call button features that ensure the fast loading of pages, a key to your successful business marketing.`
