@@ -6,7 +6,7 @@ function AboutDw() {
     return (
         <div className='container mx-auto px-5 my-10'>
             <div className='px-0 lg:px-16'>
-                <p className='text-[30px] font-bold py-3'>About DIgital Wolf</p>
+                <p className='text-[30px] font-bold py-3'>About DW</p>
                 <hr />
             </div>
             <div className='flex flex-wrap justify-around gap-y-5 my-8'>
