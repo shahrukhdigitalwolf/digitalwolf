@@ -43,7 +43,7 @@ function DigitalMeeting() {
                     </div>
                 </div>
             </div>
-            <div className='w-[100%] lg:w-[33.33%]'>
+            <div className='w-[100%] lg:w-[33.33%] mb-10'>
                 <Image className='mx-auto' src='/img/home/digital-meeting.png' alt='' width={300} height={600} />
             </div>
         </div>

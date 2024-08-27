@@ -32,7 +32,7 @@ function OurValue() {
                     <p>We are coming up with innovative marketing services. You can get the experience of a potential combination of data, collaboration, marketing technologies, partnerships, and optimizations constantly. </p>
                 </div>
             </div>
-            <div className='flex flex-wrap text-white'>
+            <div className='flex flex-wrap text-white gap-y-5'>
                 <div className='w-[100%] lg:w-[30%] '>
                     <div className='bg-[#6659FA] border-[1px] px-5 h-full flex justify-evenly flex-col'>
                         <div className='pb-10 border-b-[1px] border-white'>

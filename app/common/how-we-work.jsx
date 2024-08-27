@@ -17,7 +17,7 @@ function HowWeWork() {
                 <p>Our team of experts discuss with you to know about your goals,i.e., where you want to see your brand. Then they fix a budget as per your requirements. They share flexible ideas and strategies to expand further.</p>
             </div>
         </div>
-        <div className='flex flex-wrap'>
+        <div className='flex flex-wrap gap-y-5'>
             <div className='w-[100] lg:w-[33.33%] px-3'>
                 <div className='bg-[#843AFF] text-white py-5'>
                     <div className='pb-3 px-5'>

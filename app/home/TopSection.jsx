@@ -9,7 +9,7 @@ function TopSection() {
     <div className='bgs'>
         <div className='container mx-auto px-5'>
             <div className='flex flex-wrap'>
-                <div className='w-[100%] lg:w-[50%] flex justify-evenly flex-col'>
+                <div className='w-[100%] lg:w-[50%] flex justify-evenly flex-col gap-y-8 py-5'>
                     <div>
                         <h1 className='text-[35px] leading-[40px]'>Impact On Results<br/>
                         Your <strong>Digital Success</strong> Partners</h1>
@@ -22,7 +22,7 @@ function TopSection() {
                         </p>
                     </div>
                     <div>
-                        <Button className='rounded-full bg-[#11009E] px-10 py-2 text-white'>Get Free Consultation!</Button>
+                        <Button className='rounded-full bg-[#11009E] px-10 py-3 text-white hover:bg-[#513eff]'>Get Free Consultation!</Button>
                     </div>
                 </div>
                 <div className='w-[100%] lg:w-[50%]'>
