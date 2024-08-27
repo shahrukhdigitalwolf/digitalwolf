@@ -52,10 +52,10 @@ function ContactInfo() {
                                 label="Select"
                                 >
                                
+                                <MenuItem  value="">Digital Marketing</MenuItem>
+                                <MenuItem  value="">Digital</MenuItem>
                                 <MenuItem  value="">Digital Marketing Services</MenuItem>
-                                <MenuItem  value="">Digital Marketing Services</MenuItem>
-                                <MenuItem  value="">Digital Marketing Services</MenuItem>
-                                <MenuItem  value="">Digital Marketing Services</MenuItem>
+                                <MenuItem  value="">Digital Services</MenuItem>
                                 <MenuItem  value="">Digital Marketing Services</MenuItem>
                                 <MenuItem  value="">Digital Marketing Services</MenuItem>
                            
