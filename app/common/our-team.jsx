@@ -8,7 +8,7 @@ function OurTeam() {
     <div className='container mx-auto px-5'>
         <SubHeading text="Our Team Behind It" />
         <div className='flex flex-wrap py-5'>
-            <div className='w-[100%] lg:w-[50%]'>
+            <div className='w-[100%] lg:w-[45%]'>
                 <p className='text-[30px]'>Let’s meet the team of our digital marketing and navigate the digital frontiers.</p>
             </div>
             <div className='w-[100%] lg:w-[50%]'>

@@ -34,7 +34,7 @@ function Faq() {
                         proident</p>
                 </div>
             </div>
-            <div className='flex flex-wrap gap-y-5'>
+            <div className='flex flex-wrap gap-y-5 mb-10'>
                 <div className='w-[100%] lg:w-[40%]'>
                     <Image className='mx-auto' src='/img/home/faq.png' alt='' width={400} height={600} />
                 </div>

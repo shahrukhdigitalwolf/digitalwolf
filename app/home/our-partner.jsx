@@ -3,6 +3,7 @@ import React from 'react'
 import client from '../data/client'
 import { Button } from '@mui/material'
 import Link from 'next/link'
+import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
 
 function Ourpartner(props) {
   return (
@@ -41,8 +42,10 @@ function Ourpartner(props) {
                     })
                 }
             </div>
-            <div>
-                <Link href='/'>Learn More</Link>
+            <div className='flex justify-center'>
+                <button className='rounded-full bg-[#11009E] px-10 py-3 text-white hover:bg-[#513eff]'>
+                <Link href='/'>View All Clients <ArrowCircleDownIcon/></Link>
+                </button>
             </div>
         </div>
     </>

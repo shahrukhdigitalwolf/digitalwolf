@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import { Button } from '@mui/material';
+import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
 
 function HomeAboutDw() {
   return (
@@ -44,8 +45,8 @@ function HomeAboutDw() {
                             </div>
                         </div>
                         <div className='pt-5'>
-                            <Button>
-                                Learn More 
+                            <Button className='block mx-auto my-10 rounded-full bg-white px-10 py-3 text-[#513eff] hover:bg-[#513eff] hover:text-white'>
+                                Learn More <ArrowCircleRightIcon/> 
                             </Button>
                         </div>
                     </div>
