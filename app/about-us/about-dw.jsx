@@ -24,7 +24,7 @@ function AboutDw() {
                     </div>
                     <div className='py-5'>
                         <button className='rounded-full bg-[#11009E] px-10 py-3 text-white hover:bg-white hover:text-[#11009E]'>
-                        Learn <ArrowCircleDownIcon/>
+                        Learn More<ArrowCircleDownIcon/>
                         </button>
                     </div>
                 </div>
