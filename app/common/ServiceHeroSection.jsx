@@ -13,7 +13,7 @@ function ServiceHeroSection(props){
         <div className="container mx-auto px-5">
             <div className='flex flex-wrap justify-start gap-y-5'>
                 <div className='w-[100%] lg:w-[50%] px-3'>
-                    <Image src={props.featureImg} alt='' width={600} height={250}/>
+                    <Image className='w-full' src={props.featureImg} alt='' width={600} height={250}/>
                 </div>
                 <div className='w-[100%] lg:w-[50%] px-3'>
                     <Form/>

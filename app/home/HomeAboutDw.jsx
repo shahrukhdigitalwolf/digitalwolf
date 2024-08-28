@@ -6,7 +6,7 @@ import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
 
 function HomeAboutDw() {
   return (
-    <div className='clipPath bg-[#322854]'>
+    <div className='clipPath bg-[#322854] pb-10'>
         <div className='container mx-auto px-5'>
             <div>
                 <div className='py-3'>

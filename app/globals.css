@@ -12,10 +12,14 @@ body{
 }
 .bgs{
   background:linear-gradient(0deg, rgba(143,138,255,1) 0%, rgba(255,255,255,1) 100%);
-  clip-path: polygon(0 0, 100% 0%, 100% 85%, 0 97%);
 }
 .clipPath{
-  clip-path: polygon(0 0, 100% 0%, 100% 85%, 0 97%);
+  clip-path: polygon(0 0, 100% 0%, 100% 87%, 0 97%);
+}
+@media (max-width:767px){
+  .clipPath{
+    clip-path: polygon(0 0, 100% 0%, 100% 95%, 0 97%);
+  }
 }
 header{
   position: relative;

@@ -28,7 +28,7 @@ import {
   VideoCameraIcon,
   XMarkIcon,
 } from '@heroicons/react/24/outline'
-import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
+import { ChevronDownIcon, PhoneIcon } from '@heroicons/react/20/solid'
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -46,8 +46,8 @@ const products = [
   { name: 'Bulk Message Services', description: 'Build strategic funnels that will convert', href: '/bulk-message-services', icon: EnvelopeIcon },
 ]
 const callsToAction = [
-  { name: 'Watch demo', href: '#', icon: PlayCircleIcon },
-  { name: 'Contact sales', href: '#', icon: PhoneIcon },
+  { name: 'Mail Us', href: 'mailto:info@digitalwolf.co.in', icon: EnvelopeIcon },
+  { name: 'Contact Us', href: 'tel:+918250054478', icon: PhoneIcon },
 ]
 
 export default function Header() {
@@ -102,7 +102,7 @@ export default function Header() {
             </PopoverButton>
             <PopoverPanel
               static
-              className={`absolute -left-80 top-full z-[99] w-[50rem] max-w-[50rem] overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5 transition-opacity duration-300 ${popoverOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
+              className={`absolute -left-96 top-full z-[99] w-[50rem] max-w-[50rem] overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5 transition-opacity duration-300 ${popoverOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
             >
               <div className="p-4 grid grid-cols-2">
                 {products.map((item) => (
@@ -151,12 +151,12 @@ export default function Header() {
       </nav>
       <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
         <div className="fixed inset-0 z-[99]" />
-        <DialogPanel className="fixed inset-y-0 right-0 z-[99] w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <DialogPanel className="fixed inset-y-0 right-0 z-[1000] w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <a href="#" className="-m-1.5 p-1.5">
+            <Link href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <Image alt="" src="/img/dw-logo.png" className="h-8 w-auto" width={40} height={50} />
-            </a>
+            </Link>
             <button
               type="button"
               onClick={() => setMobileMenuOpen(false)}
@@ -187,15 +187,15 @@ export default function Header() {
                     <ChevronDownIcon aria-hidden="true" className="h-5 w-5 flex-none group-data-[open]:rotate-180" />
                   </DisclosureButton>
                   <DisclosurePanel className="mt-2 space-y-2">
-                    {[...products, ...callsToAction].map((item) => (
-                      <DisclosureButton
+                    {products.map((item) => (
+                      <Link
                         key={item.name}
-                        as="a"
                         href={item.href}
+                        onClick={() => setMobileMenuOpen(false)}
                         className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                       >
                         {item.name}
-                      </DisclosureButton>
+                      </Link>
                     ))}
                   </DisclosurePanel>
                 </Disclosure>

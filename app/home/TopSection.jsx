@@ -6,7 +6,7 @@ function TopSection() {
     
   return (
     <>
-    <div className='bgs'>
+    <div className='bgs clipPath pt-5'>
         <div className='container mx-auto px-5'>
             <div className='flex flex-wrap'>
                 <div className='w-[100%] lg:w-[50%] flex justify-evenly flex-col gap-y-8 py-5'>
@@ -26,7 +26,7 @@ function TopSection() {
                     </div>
                 </div>
                 <div className='w-[100%] lg:w-[50%]'>
-                    <Image className='m-auto' src='/img/home/hero-im.jpg' alt='' width={400} height={598} />
+                    <Image className='m-auto rounded-tl-[120px] rounded-tr-[120px]' src='/img/home/hero-im.jpg' alt='' width={400} height={598} />
                 </div>
             </div>
         </div>
