@@ -4,6 +4,7 @@ import { Button, MenuItem, TextField } from '@mui/material'
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import CallIcon from '@mui/icons-material/Call';
 import EmailIcon from '@mui/icons-material/Email';
+import Link from 'next/link';
 
 function ContactInfo() {
     return (
@@ -17,21 +18,27 @@ function ContactInfo() {
                 </div>
                 <div className="flex flex-wrap justify-between gap-y-5">
                     <div className="w-[100%] lg:w-[45%]">
-                        <div className="">
-                            <span className='border-b border-black'><strong>Address</strong></span>
-                            <div className="flex justify-start my-5 gap-3">
-                                <LocationOnIcon />
-                                <p className="">22/263, Jodhpur Park, Tagore Park Road, Kolkata, West Bengal 700045</p>
+                        <div className="flex justify-evenly flex-col h-full">
+                            <div>
+                                <p className='border-b-[2px] border-black w-20 font-semibold'>Address</p>
+                                <div className="flex justify-start items-start my-5 gap-3">
+                                    <LocationOnIcon className='text-[#11009E]'/>
+                                    <p className="">22/263, Jodhpur Park, Tagore Park Road, Kolkata, West Bengal 700045</p>
+                                </div>
                             </div>
-                            <span className='border-b border-black'><strong>Call</strong></span>
-                            <div className="flex justify-start my-5 gap-3">
-                                <CallIcon />
-                                <p>+91 8250054478</p>
+                            <div>
+                                <p className='border-b-[2px] border-black w-20 font-semibold'>Call</p>
+                                <div className="flex justify-start items-center my-5 gap-3">
+                                    <CallIcon className='text-[#11009E]'/>
+                                    <Link href='tel:+918250054478'>+91 82500 54478</Link>
+                                </div>
                             </div>
-                            <span className='border-b border-black'><strong>Mail</strong></span>
-                            <div className="flex justify-start my-5 gap-3">
-                                <EmailIcon />
-                                <p>info@digitalwolf.co.in</p>
+                            <div>
+                                <p className='border-b-[2px] border-black w-20 font-semibold'>Mail</p>
+                                <div className="flex justify-start items-center my-5 gap-3">
+                                    <EmailIcon className='text-[#11009E]'/>
+                                    <Link href='mailto:info@digitalwolf.co.in'>info@digitalwolf.co.in</Link>
+                                </div>
                             </div>
                         </div>
                     </div>

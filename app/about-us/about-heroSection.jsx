@@ -2,7 +2,7 @@ import React from 'react'
 
 function AboutTop() {
   return (
-    <div className='bgs'>
+    <div className='bgs clipPath'>
         <div className='container mx-auto px-5 py-[100px]'>
             <div className='flex flex-wrap'>
                 <div className='w-[100%] lg:w-[50%]'>

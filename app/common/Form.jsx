@@ -27,6 +27,20 @@ function Form() {
             },
             marginBottom:'10px'
     }
+
+    const services = [
+        { id:1, name: 'Digital Marketing'},
+        { id:2, name: 'SEO Services'},
+        { id:3, name: 'SMO Services'},
+        { id:4, name: 'Website Development'},
+        { id:5, name: 'PPC Marketing'},
+        { id:6, name: 'Mobile App Development'},
+        { id:7, name: 'Logo & Graphic Design'},
+        { id:8, name: 'Facebook Ad Services'},
+        { id:9, name: 'Content Writing Services'},
+        { id:10, name: 'Software Development'},
+        { id:11, name: 'Bulk Message Services'},
+    ]
   return (
     <div className='bg-[#5A53F4]'>
         <div className='mb-3 bg-[#CBC9FF] py-3 clipPath'>
@@ -47,17 +61,20 @@ function Form() {
                     id="standard-select-currency"
                     select
                     fullWidth
-                    label="Select"
+                    label="Services"
                     variant="standard"
-                    helperText="Please select your currency"
+                    helperText="Please select interested Service"
                     sx={style}
                     >
-                    <MenuItem  value="value1">
-                        value1
-                    </MenuItem>
-                    <MenuItem  value="value1">
-                        value1
-                    </MenuItem>
+                    {
+                        services.map((val,i)=>{
+                            return(
+                                <MenuItem key={i} value={val.name}>
+                                    {val.name}
+                                </MenuItem>
+                            )
+                        })
+                    }
                 </TextField>
             </div>
             <div className='mb-3'>

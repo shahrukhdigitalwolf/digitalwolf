@@ -40,7 +40,7 @@ function HowWeWork() {
                         <p className='text-[23px]'>Identify Your Budget</p>
                     </div>
                     <div>
-                        <Image className='ms-auto' src='/img/home/work1.png' alt='' width={400} height={250} />
+                        <Image className='ms-auto' src='/img/home/budget.png' alt='' width={400} height={250} />
                     </div>
                 </div>
             </div>
@@ -53,7 +53,7 @@ function HowWeWork() {
                         <p className='text-[23px]'>Maintain Flexibility</p>
                     </div>
                     <div>
-                        <Image className='ms-auto' src='/img/home/work1.png' alt='' width={400} height={250} />
+                        <Image className='ms-auto' src='/img/home/flexibility.png' alt='' width={400} height={250} />
                     </div>
                 </div>
             </div>
