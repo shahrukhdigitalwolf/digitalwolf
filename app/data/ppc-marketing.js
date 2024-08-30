@@ -3,13 +3,13 @@ const ppcMarketing = [
         headText1 : '[PPC services]',
         headText2 : 'PPC Services',
         headText3 : 'The best app development company in India',
-        featureImg : '/img/services/business-people-working-laptop-meeting.jpg',
+        featureImg : '/img/services/ppc/ppc-feature.jpg',
 
         ourServicesText1 : 'We offer innovative PPC services in Kolkata',
         ourServicesText2 : 'Some companies fail to reach their target audiences due to a lack of accessibility to advertising resources, pay-per-click avenues, and Google ad agencies. For that reason, businesses are struggling in the market and facing little difficulties with their internet marketing initiatives. If you looking to get internet marketing services for your brand we are here, the best provider of PPC services in Kolkata.',
-        ourServicesImg1 : '/img/services/businesspeople.jpg',
-        ourServicesImg2 : '/img/services/searching-engine-optimizing.jpg',
-        ourServicesImg3 : '/img/services/seo-links.jpg',
+        ourServicesImg1 : '/img/services/ppc/ppc-1.jpg',
+        ourServicesImg2 : '/img/services/ppc/ppc-2.jpg',
+        ourServicesImg3 : '/img/services/ppc/ppc-3.jpg',
         ourServicesText3 : 'Get In Touch with the best PPC agency in Kolkata',
         ourServicesText4 : 'Pay-per-click advertising helps your brand or company to stay away from your rivals who would be targeting similar keywords and get a position among the top results which will show to the people in a Google search. Our services provide you with well-crafted PPC plans to establish a good reputation for your website. a well-crafted PPC helps you to target the right audiences at the exact time.',
 

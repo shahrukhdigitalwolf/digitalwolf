@@ -3,13 +3,13 @@ const contentWriting = [
         headText1 : '[content writing services]',
         headText2 : 'Content Writing Services',
         headText3 : 'The best app development company in India',
-        featureImg : '/img/services/business-people-working-laptop-meeting.jpg',
+        featureImg : '/img/services/content-writing/content-writing-feature.jpg',
 
         ourServicesText1 : 'Get In Touch with us a renowned Content Writing agency in Kolkata',
         ourServicesText2 : 'We are here to provide you with web content writing, Blog writing services, professional content writing services, web content writing services, and SEO copywriting services that will help you to grow your business. You cannot throw content strategies out of your marketing plan if you want to achieve your business objectives. Your website contents help your brand in engaging clients and encourage them to try out the offered services of your company. ',
-        ourServicesImg1 : '/img/services/businesspeople.jpg',
-        ourServicesImg2 : '/img/services/searching-engine-optimizing.jpg',
-        ourServicesImg3 : '/img/services/seo-links.jpg',
+        ourServicesImg1 : '/img/services/content-writing/content-writing-1.jpg',
+        ourServicesImg2 : '/img/services/content-writing/content-writing-2.jpg',
+        ourServicesImg3 : '/img/services/content-writing/content-writing-3.jpg',
         ourServicesText3 : 'Best provider of Content Writing services in Kolkata',
         ourServicesText4 : 'As everyday online content becomes popular, mainstream content teams are not sufficient to take your business to a high level. You must hire our SEO copywriting services specialists who are experienced with several digital marketing strategies to help your brand get a top position in search engines. They create exceptional content that is capable of producing outstanding business results for you.',
 
