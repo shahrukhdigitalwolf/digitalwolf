@@ -1,5 +1,4 @@
-import Header from "./common/Header";
-import Footer from "./common/Footer";
+
 import Ourpartner from "./home/our-partner";
 import TopSection from "./home/TopSection";
 import HomeAboutDw from "./home/HomeAboutDw";
@@ -12,8 +11,10 @@ import Testimonial from "./common/testimonial";
 
 
 export default function Home() {
+ 
   return (
     <>
+      
       <main>
           <TopSection/>
           <Ourpartner slice={4}/>
