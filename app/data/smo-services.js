@@ -3,13 +3,13 @@ const smoServices = [
         headText1 : '[SMO services]',
         headText2 : 'Social Media Optimizarion Services',
         headText3 : 'The best app development company in India',
-        featureImg : '/img/services/business-people-working-laptop-meeting.jpg',
+        featureImg : '/img/services/social-media/smo-feature.jpg',
 
         ourServicesText1 : 'We offer SMO services in Kolkata for your business’s well-being',
         ourServicesText2 : 'We are here to provide you with more innovative ideas to increase your brand awareness, revenue, customer loyalty, and more. Our main goal is to bring the facts what people are saying about your company. Various things like active conversations, posting, content creation, and interaction are severed by us for your business’s well-being. ',
-        ourServicesImg1 : '/img/services/businesspeople.jpg',
-        ourServicesImg2 : '/img/services/searching-engine-optimizing.jpg',
-        ourServicesImg3 : '/img/services/seo-links.jpg',
+        ourServicesImg1 : '/img/services/social-media/smo-1.jpg',
+        ourServicesImg2 : '/img/services/social-media/smo-2.jpg',
+        ourServicesImg3 : '/img/services/social-media/smo-3.jpg',
         ourServicesText3 : 'See wonderful growth in your audience with the best social media agency in India',
         ourServicesText4 : 'We provide the best SMO service in Kolkata. We provide the type of online advertising that uses sites like Facebook, Twitter, and LinkedIn to build your brand recognition, attract customers attention, and connect your business with a larger, more varied audience. Through social media marketing, we will help to increase brand recognition online and create deep connections with your clients and followers.',
 

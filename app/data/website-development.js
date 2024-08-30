@@ -3,13 +3,13 @@ const websiteDevelopment = [
         headText1 : '[web development services]',
         headText2 : 'Web Development Services',
         headText3 : 'The best app development company in India',
-        featureImg : '/img/services/business-people-working-laptop-meeting.jpg',
+        featureImg : '/img/services/website-development/website-development-feature.jpg',
 
         ourServicesText1 : 'A strategic approach to website design and development through a website design company in Kolkata',
         ourServicesText2 : `We developed web portals for different audiences, including clients, business partners, online shoppers, vendors, and interest-based groups. The websites we've built are used for your corporate presentation and brand building by more than 250 enterprises, governmental agencies, and nonprofits. We ensure that the page editor on our websites is simple to use for you to manage unique content.`,
-        ourServicesImg1 : '/img/services/businesspeople.jpg',
-        ourServicesImg2 : '/img/services/searching-engine-optimizing.jpg',
-        ourServicesImg3 : '/img/services/seo-links.jpg',
+        ourServicesImg1 : '/img/services/website-development/website-development-1.jpg',
+        ourServicesImg2 : '/img/services/website-development/website-development-2.jpg',
+        ourServicesImg3 : '/img/services/website-development/website-development-3.jpg',
         ourServicesText3 : 'Best Website Design company in Kolkata',
         ourServicesText4 : `You may get a high-performing website up and operating in no time with the help of our seasoned web designers and developers. We are the top web development company in Kolkata and provide the greatest option for your company's digitization due to our experts’ vast experience in the fields of website design, web development, and app development.`,
 

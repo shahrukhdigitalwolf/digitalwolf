@@ -3,13 +3,13 @@ const softwareDevelopment = [
         headText1 : '[Software development services]',
         headText2 : 'Software Development Services ',
         headText3 : 'The best app development company in India',
-        featureImg : '/img/services/business-people-working-laptop-meeting.jpg',
+        featureImg : '/img/services/software-development/software-developer-feature.jpg',
 
         ourServicesText1 : `An ideal Software Development company in Kolkata`,
         ourServicesText2 : `We are the best organization that provides custom software development in Kolkata. This consulting service are most desirable one in the recent world where a maximum of people must work from their home remotely. Digital Wolf will be your ideal choice that can meet your brand's requirements.`,
-        ourServicesImg1 : '/img/services/businesspeople.jpg',
-        ourServicesImg2 : '/img/services/searching-engine-optimizing.jpg',
-        ourServicesImg3 : '/img/services/seo-links.jpg',
+        ourServicesImg1 : '/img/services/software-development/software-developer-1.jpg',
+        ourServicesImg2 : '/img/services/software-development/software-developer-2.jpg',
+        ourServicesImg3 : '/img/services/software-development/software-developer-3.jpg',
         ourServicesText3 : 'Get In Touch with the best Software Development company in Kolkata',
         ourServicesText4 : `Our company has many years of experience in the field of software development. Members of our expert teams are skilled in managing various types of software development projects at all levels of complexity. We have a reputation in this field because our company offers quick development of the software with quality products. We refine our products continuously based on the user's feedback until they match your original expectations.`,
 

@@ -3,13 +3,13 @@ const graphicsDesign = [
         headText1 : '[Graphic Design Services]',
         headText2 : 'Graphic Design Services',
         headText3 : 'The best app development company in India',
-        featureImg : '/img/services/business-people-working-laptop-meeting.jpg',
+        featureImg : '/img/services/graphics-design/graphic-design-feature.jpg',
 
         ourServicesText1 : 'Get a suitable logo for your brand designed by our expert team',
         ourServicesText2 : 'Our company is the best graphic designing company in Kolkata, so initially we research your brands values and vision before designing a suitable logo for your brand. We collect the details about the needs of your business and creative goals before beginning the work on the graphic designing services for your brand. We also consider the competition in your industry, the demographics of your target audience, and many more while providing you with design services. ',
-        ourServicesImg1 : '/img/services/businesspeople.jpg',
-        ourServicesImg2 : '/img/services/searching-engine-optimizing.jpg',
-        ourServicesImg3 : '/img/services/seo-links.jpg',
+        ourServicesImg1 : '/img/services/graphics-design/graphic-design-1.jpg',
+        ourServicesImg2 : '/img/services/graphics-design/graphic-design-2.jpg',
+        ourServicesImg3 : '/img/services/graphics-design/graphic-design-3.jpg',
         ourServicesText3 : 'Get In Touch with the Best logo design company in Kolkata',
         ourServicesText4 : 'We provide you with skilled logo designers who develop original and customized logo designs for you that can go beyond your expectations. Our goal is to provide professional graphic design services based on your suggestions and the analysis of the market. Digital Wolf is the best graphic design company in Kolkata in the market of creative graphic design agencies. Our graphics and logo design services include captivating and outstanding Visuals for brochures, flyers, e-books, business cards, banners, and many more materials.',
 

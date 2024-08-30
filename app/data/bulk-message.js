@@ -3,13 +3,13 @@ const bulkMessage = [
         headText1 : '[SMS marketing services]',
         headText2 : 'SMS Marketing Services',
         headText3 : 'The best app development company in India',
-        featureImg : '/img/services/business-people-working-laptop-meeting.jpg',
+        featureImg : '/img/services/bulk-message/sms-feature.jpg',
 
         ourServicesText1 : `We are bulk SMS service provider in Kolkata`,
         ourServicesText2 : `We provide bulk SMS and text massage services so that your brand may swiftly deliver messages to thousands of your clients. You can schedule your automated SMSs and SMS campaigns by using our SMS API. You may personalize your sender ID with the help of our bulk SMS gateway. Our bulk SMS services resemble what was once referred to as a message for broadcasting a brand. You can send bulk SMSs by entering the text message and uploading the list of your intended audience simply.`,
-        ourServicesImg1 : '/img/services/businesspeople.jpg',
-        ourServicesImg2 : '/img/services/searching-engine-optimizing.jpg',
-        ourServicesImg3 : '/img/services/seo-links.jpg',
+        ourServicesImg1 : '/img/services/bulk-message/sms-1.jpg',
+        ourServicesImg2 : '/img/services/bulk-message/sms-2.jpg',
+        ourServicesImg3 : '/img/services/bulk-message/sms-3.jpg',
         ourServicesText3 : `Get In Touch with Digital Wolf`,
         ourServicesText4 : `We provide numerous types of Bulk SMS services: Commercial SMS is used to communicate deals and promotions to your clients. PIN SMS which is used to send a code for the registration of new users and the verification of payments. SMS transactions provide to send notifications such as order confirmations and delivery notifications. By using our services, you can communicate with your clients promptly and consistently. Your business can get real-time analytics which helps make decisions within your organization by using information like delivery rates, delivery failures, and their causes.`,
 
