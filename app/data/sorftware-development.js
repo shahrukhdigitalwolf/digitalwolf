@@ -31,19 +31,19 @@ const softwareDevelopment = [
                 id:1,
                 keyPointsCardHead : 'Strengthened by resources',
                 keyPointsCardDesc : 'Our company is renowned for completing projects on time. We provide all necessary assets, skills, advantages, knowledge, and experience that are beneficial for our clients concerning software development architecture.',
-                marginTop : 'lg:mt-80',
+                marginTop : 'lg:mt-56',
             },
             {
                 id:2,
                 keyPointsCardHead : `Software as a service`,
                 keyPointsCardDesc : 'We believe in delivering the prominent IT software as a service at Digital Wolf. This essential service is covered by our software team experts completely which is flawless.',
-                marginTop : 'lg:mt-56',
+                marginTop : 'lg:mt-28',
             },
             {
                 id:3,
                 keyPointsCardHead : 'Comprehensive management',
                 keyPointsCardDesc : 'Our clients have always been pleased by our IT solutions as they have found these services creative and uniquely refreshing because of the exceptional services of our expert team. Our team of software developers and project managers collaborate to ensure the smooth run of the full workforce.',
-                marginTop : 'lg:mt-28',
+                marginTop : 'lg:mt-0',
             },
         ],
 

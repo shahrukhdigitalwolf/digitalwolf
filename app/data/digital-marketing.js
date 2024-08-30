@@ -31,19 +31,19 @@ const digitalMarketing = [
                 id:1,
                 keyPointsCardHead : 'Link building services along with SEO',
                 keyPointsCardDesc : 'Our digital marketing specialist will post original content for blogs, articles, social bookmarking sites, directories and submission platforms to increase authority and subsequent rankings of your brand.',
-                marginTop : 'lg:mt-80',
+                marginTop : 'lg:mt-56',
             },
             {
                 id:2,
                 keyPointsCardHead : `In depth keyword research`,
                 keyPointsCardDesc : 'We are aware of the keywords that being used by your consumers, so we will concentrate on using those keywords which is appropriate for your company. Keywords and Key phrases are vital for your business marketing.',
-                marginTop : 'lg:mt-56',
+                marginTop : 'lg:mt-28',
             },
             {
                 id:3,
                 keyPointsCardHead : 'Regular website reviews',
                 keyPointsCardDesc : 'We as a top digital marketing company in Kolkata concentrate on the monthly review of your brand’s website which results in a customized and prioritized digital marketing action plan for your website. We plan for the digital marketing strategies that will produce speedy results for you.',
-                marginTop : 'lg:mt-28',
+                marginTop : 'lg:mt-0',
             },
         ],
         

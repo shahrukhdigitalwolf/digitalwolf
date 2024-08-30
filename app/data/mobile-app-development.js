@@ -31,19 +31,19 @@ const mobileAppDevelopment = [
                 id:1,
                 keyPointsCardHead : 'All-inclusive mobile app development',
                 keyPointsCardDesc : 'Digital Wolf is one of the top mobile app development companies in India. We as a mobile app developer offer independence and adaptability according to the customers’ expectations. Moreover, our company has reputed expertise from the working experience of a variety of projects. ',
-                marginTop : 'lg:mt-80',
+                marginTop : 'lg:mt-56',
             },
             {
                 id:2,
                 keyPointsCardHead : `Working for many verticals`,
                 keyPointsCardDesc : 'We have a good record of creating applications for numerous business sectors. So, hiring a digital wolf to create your app will be a great idea of yours, because we have sufficient knowledge and ability in designing mobile apps. ',
-                marginTop : 'lg:mt-56',
+                marginTop : 'lg:mt-28',
             },
             {
                 id:3,
                 keyPointsCardHead : 'Take your business higher ',
                 keyPointsCardDesc : 'Our goal is to support everyone from thriving startups to our business clients. Since we know what is needed to create a flawless mobile application, our experts have created numerous mobile apps across many different categories. Our sincerely crafted mobile applications can advance your company.',
-                marginTop : 'lg:mt-28',
+                marginTop : 'lg:mt-0',
             },
         ],
         

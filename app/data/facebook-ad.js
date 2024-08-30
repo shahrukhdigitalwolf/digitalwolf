@@ -31,13 +31,13 @@ const facebookAd = [
                 id:1,
                 keyPointsCardHead : 'Best Facebook ad strategies',
                 keyPointsCardDesc : 'While you are searching for Facebook ad agency, India then Digital Wolf can be your perfect choice. We develop such strategy plans that may highlight the mission, vision and values of your brand. Our plan also makes the audience more eager for your presence.',
-                marginTop : 'lg:mt-80',
+                marginTop : 'lg:mt-28',
             },
             {
                 id:2,
                 keyPointsCardHead : `Let experts deal with Facebook ads`,
                 keyPointsCardDesc : 'If you allow our expert team of social media marketing specialist to be at your service you will get help to expand your customer base and gain investors for your business.',
-                marginTop : 'lg:mt-56',
+                marginTop : 'lg:mt-0',
             },
         ],
 
