@@ -114,7 +114,7 @@ export default function Header() {
                       <item.icon aria-hidden="true" className="h-6 w-6 text-gray-600 group-hover:text-indigo-600" />
                     </div>
                     <div className="flex-auto">
-                      <Link href={item.href} className="block font-semibold text-gray-900">
+                      <Link onClick={()=>setPopoverOpen(false)} href={item.href} className="block font-semibold text-gray-900">
                         {item.name}
                         <span className="absolute inset-0" />
                       </Link>

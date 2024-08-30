@@ -1,6 +1,3 @@
-import Footer from "../common/Footer";
-import Header from "../common/Header";
-
 
 export const metadata = {
   title: "Digital Wolf - About us",
