@@ -31,30 +31,21 @@ const bulkMessage = [
                 id:1,
                 keyPointsCardHead : 'Long-lasting customer relations',
                 keyPointsCardDesc : 'As a top SMS marketing agency, Digital Wolf creates and constructs text marketing software. Our created software is user-friendly and enables you to send mass SMS. Our new text messaging platform helps you to manage your SMS campaigns.',
-                marginTop : 'lg:mt-80',
+                marginTop : 'lg:mt-56',
             },
             {
                 id:2,
                 keyPointsCardHead : 'Uphold customer sentiments',
                 keyPointsCardDesc : 'Digital Wolf listens to all of your needs regarding bulk SMS marketing services which is the main reason behind our reputation. It is our striking method by which you can make your clients feel important, valuable, and unique.',
-                marginTop : 'lg:mt-56',
+                marginTop : 'lg:mt-28',
             },
             {
                 id:3,
                 keyPointsCardHead : 'A 360-degree solution to SMS marketing',
                 keyPointsCardDesc : 'Our SEO specialist is always ready to post original content to blogs, articles, social bookmarking sites, and directories to increase your brand’s authority and website’s regular audiences. ',
-                marginTop : 'lg:mt-28',
+                marginTop : 'lg:mt-0',
             },
         ],
-
-       /*  keyPointsCardHead1 : 'Long-lasting customer relations',
-        keyPointsCardDesc1 : 'As a top SMS marketing agency, Digital Wolf creates and constructs text marketing software. Our created software is user-friendly and enables you to send mass SMS. Our new text messaging platform helps you to manage your SMS campaigns.',
-        
-        keyPointsCardHead2 : `Uphold customer sentiments`,
-        keyPointsCardDesc2 : `Digital Wolf listens to all of your needs regarding bulk SMS marketing services which is the main reason behind our reputation. It is our striking method by which you can make your clients feel important, valuable, and unique.`,
-        
-        keyPointsCardHead3 : `A 360-degree solution to SMS marketing`,
-        keyPointsCardDesc3 : 'We offer you comprehensive solutions for using mobile technology to communicate with a variety of your customers.', */
         
         conclusionHead: 'Our Conclusive Touch',
         conclusionDesc: `Our company provides excellent services in the domain of bulk messaging. Our expert team possesses efficient professionals who can offer you effective solutions by providing cutting-edge technologies. We created text message marketing software that helps you to communicate with your target audiences. We provide the service that is associated with the benefits of a smooth experience which you can seek and it is the best part about choosing Digital Wolf for bulk messaging services. We covered all the types like email marketing, reaching a bulk audience via social or SMS marketing that are helpful for your brand's promotion.`,

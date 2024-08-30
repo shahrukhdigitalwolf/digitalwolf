@@ -7,6 +7,7 @@ const websiteDevelopment = [
 
         ourServicesText1 : 'A strategic approach to website design and development through a website design company in Kolkata',
         ourServicesText2 : `We developed web portals for different audiences, including clients, business partners, online shoppers, vendors, and interest-based groups. The websites we've built are used for your corporate presentation and brand building by more than 250 enterprises, governmental agencies, and nonprofits. We ensure that the page editor on our websites is simple to use for you to manage unique content.`,
+        
         ourServicesImg1 : '/img/services/website-development/website-development-1.jpg',
         ourServicesImg2 : '/img/services/website-development/website-development-2.jpg',
         ourServicesImg3 : '/img/services/website-development/website-development-3.jpg',
@@ -31,19 +32,19 @@ const websiteDevelopment = [
                 id:1,
                 keyPointsCardHead : 'Expert solutions in web development',
                 keyPointsCardDesc : 'As we are the best website development company in India, you can find a team of professionals with years of experience in this industry at Digital Wolf. They use the most recent tools and technology to build an innovative website which is aimed at a variety of uses to solve your purpose.',
-                marginTop : 'lg:mt-80',
+                marginTop : 'lg:mt-56',
             },
             {
                 id:2,
                 keyPointsCardHead : `E-commerce solutions`,
                 keyPointsCardDesc : 'We create e-commerce and shopping cart software for online businesses. Our company provides effective solutions as we are the best web development company in Kolkata.',
-                marginTop : 'lg:mt-56',
+                marginTop : 'lg:mt-28',
             },
             {
                 id:3,
                 keyPointsCardHead : 'Facebook applications',
                 keyPointsCardDesc : 'We are the best website development company in India and also a top provider of web and application development services for Facebook, mobile, and the web.',
-                marginTop : 'lg:mt-28',
+                marginTop : 'lg:mt-0',
             },
         ],
 

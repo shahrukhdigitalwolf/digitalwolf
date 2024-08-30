@@ -31,30 +31,21 @@ const contentWriting = [
                 id:1,
                 keyPointsCardHead : 'Relevancy is maintained',
                 keyPointsCardDesc : 'Our expert team can design customized websites that are suited for your company and can fulfill your needs. We develop efficient content to engage your audience, foster their trust in your brand, and influence their purchasing choices. You must hire our content marketing experts to manage your websites blogs, educational articles, and other engaging materials.',
-                marginTop : 'lg:mt-80',
+                marginTop : 'lg:mt-56',
             },
             {
                 id:2,
                 keyPointsCardHead : `Content is SEO's best friend`,
                 keyPointsCardDesc : 'In recent days, all types of industrial sectors have chosen SEO content marketing to get business exposure in online marketing. We are here for you to maintain all types of content like web material, electronic documents, visual media, computer files, audio files, and many more that will lead you to a successful business.',
-                marginTop : 'lg:mt-56',
+                marginTop : 'lg:mt-28',
             },
             {
                 id:3,
                 keyPointsCardHead : 'Get the best content marketing services',
                 keyPointsCardDesc : 'You can draw the attention of visitors to your site by a blend of original concepts with high-quality materials. Our skilled writers have a pool of knowledge in a variety of industry sectors and are efficient in providing high-quality materials to derive your online business.',
-                marginTop : 'lg:mt-28',
+                marginTop : 'lg:mt-0',
             },
         ],
-
-       /*  keyPointsCardHead1 : 'Relevancy is maintained',
-        keyPointsCardDesc1 : 'Our expert team can design customized websites that are suited for your company and can fulfill your needs. We develop efficient content to engage your audience, foster their trust in your brand, and influence their purchasing choices. You must hire our content marketing experts to manage your websites blogs, educational articles, and other engaging materials.',
-        
-        keyPointsCardHead2 : `Content is SEO's best friend`,
-        keyPointsCardDesc2 : 'In recent days, all types of industrial sectors have chosen SEO content marketing to get business exposure in online marketing. We are here for you to maintain all types of content like web material, electronic documents, visual media, computer files, audio files, and many more that will lead you to a successful business.',
-        
-        keyPointsCardHead3 : 'Get the best content marketing services',
-        keyPointsCardDesc3 : 'You can draw the attention of visitors to your site by a blend of original concepts with high-quality materials. Our skilled writers have a pool of knowledge in a variety of industry sectors and are efficient in providing high-quality materials to derive your online business.', */
         
 
         conclusionHead: 'Our Conclusive Touch',

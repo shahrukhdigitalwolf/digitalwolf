@@ -80,3 +80,7 @@ header.sticky{
     min-width: 0;
   }
 }
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiAccordion-root.MuiAccordion-rounded.Mui-expanded.MuiAccordion-gutters.css-1qkil1h-MuiPaper-root-MuiAccordion-root {
+  background-color: #EAE9FF;
+}
