@@ -13,7 +13,7 @@ function ServiceCard(props) {
         <div className='w-[80%]'>
             <Link className='font-bold text-[20px]' href={props.link}>{props.title}</Link>
             <p className='py-10'>{props.desc}</p>
-            <Link className='bg-[#5A53F4] px-5 py-3 rounded-full text-white' href={props.link}>Learn More <ArrowRightAltIcon/></Link>
+            <Link className='bg-[#11009E] px-5 py-3 rounded-full text-white hover:bg-[#513eff] transition duration-1000' href={props.link}>Learn More <ArrowRightAltIcon/></Link>
         </div>
     </div>
   )

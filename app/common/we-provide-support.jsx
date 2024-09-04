@@ -16,7 +16,7 @@ function WeProvideSupport() {
                     <p className='text-[30px] text-white'>We Provide 24X7 Support & Budget Friendly Solutions</p>
                 </div>
                 <div>
-                   <button className='my-10 rounded-full bg-white px-10 py-3 text-[#11009E] hover:bg-[#11009E] hover:text-white'>
+                   <button className='my-10 rounded-full bg-white px-10 py-3 text-[#11009E] hover:bg-[#11009E] hover:text-white transition duration-1000'>
                    <Link href='/' className=''>View All Services <ArrowCircleRightIcon/></Link>
                     </button> 
                 </div>
