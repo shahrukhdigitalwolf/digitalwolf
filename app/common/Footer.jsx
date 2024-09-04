@@ -22,7 +22,7 @@ function Footer() {
                     </div>
                     <div className='border-b-[1px] border-white'>
                         <p className="text-lg text-white mb-5 mt-10">
-                            Digital Wolf's best Digital Marketing Company in Kolkata
+                            Digital Wolfs best Digital Marketing Company in Kolkata
                             assists you to make your business rank highest in google 
                             and make your brand recognizable.
                         </p>
