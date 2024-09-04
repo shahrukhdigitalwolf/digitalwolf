@@ -36,7 +36,7 @@ function OurServices(props) {
                 <p>Nemo enim ipsam volup.</p>
             </div>
             <div className='w-[60%] lg:w-[20%]'>
-                <Link href='/services' className='border-[1px] border-[#5A53F4] px-5 py-2 rounded-full hover:bg-[#5A53F4] hover:text-[#fff]'>View All Services</Link>
+                <Link href='/services' className='border-[1px] border-[#5A53F4] px-5 py-2 rounded-full hover:bg-[#5A53F4] hover:text-[#fff] transition duration-1000'>View All Services</Link>
             </div>
         </div>
     </div>

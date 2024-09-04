@@ -43,7 +43,7 @@ function Ourpartner(props) {
                 }
             </div>
             <div className='flex justify-center'>
-                <button className='rounded-full bg-[#11009E] px-10 py-3 text-white hover:bg-[#513eff]'>
+                <button className='rounded-full bg-[#11009E] px-10 py-3 text-white hover:bg-[#513eff] transition duration-1000'>
                 <Link href='/'>View All Clients <ArrowCircleDownIcon/></Link>
                 </button>
             </div>
