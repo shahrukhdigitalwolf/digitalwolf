@@ -15,7 +15,7 @@ function Footer() {
         <div className="container mx-auto px-5">
             <div className="flex flex-wrap gap-y-5">
                 <div className="w-[100%] lg:w-[33.33%] px-3">
-                    <div className="">
+                    <div>
                         <Link href="/">
                             <Image src="/img/dw-logo-white.png" alt="logo" width={100} height={50} />
                         </Link>
@@ -35,7 +35,7 @@ function Footer() {
                             </Link>
                         </div>
                         <div>
-                            <Link href="" className='text-[#fff]'>
+                            <Link href="/" className='text-[#fff]'>
                                 <WhatsAppIcon fontSize='large'/>
                             </Link>
                         </div>
@@ -54,10 +54,9 @@ function Footer() {
                 <div className="flex lg:justify-center w-[100%] lg:w-[33.33%] px-3">
                     <div className="text-white flex flex-col gap-y-5">
                         <p className="text-[25px] border-b-[2px] border-[#fff] w-[140px]">Links</p>
-                        <p>About Us</p>
-                        <p>Our Services</p>
-                        <p>Blog</p>
-                        <p>Career</p>
+                        <Link href='/about-us'>About Us</Link>
+                        <Link href='/services'>Our Services</Link>
+                        <Link href='/blogs'>Blog</Link>
                         <p>Term & Condition</p>
                         <p>Privacy Policy</p>
                         <p>Refund Policy</p>
