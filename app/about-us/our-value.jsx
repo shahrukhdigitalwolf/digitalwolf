@@ -57,7 +57,7 @@ function OurValue() {
                 </div>
                 <div className='w-[100%] lg:w-[30%]'>
                     <div className='border-[1px] px-5 py-7 h-[100%] flex justify-evenly flex-col'>
-                        <div className=''>
+                        <div>
                             <p className='text-[20px]'>Let's Check Our Expertise</p>
                             <p className='text-[15px]'>Duis aute irure dolor elit.</p>
                         </div>
