@@ -108,7 +108,7 @@ function Form() {
                 </TextField>
             </div>
             <div className='mb-3'>
-                <Button type='submit' className='bg-[#E3E3FF] hover:bg-[#aeaeff] text-[#000] px-20 py-3 block mx-auto'>Apply Now</Button>
+                <Button className='bg-[#E3E3FF] text-[#11009E] hover:bg-[#11009E] hover:text-white transition duration-500 px-20 py-3 block mx-auto'>Apply Now</Button>
             </div>
         </form>
         

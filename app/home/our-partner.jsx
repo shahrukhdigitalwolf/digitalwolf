@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
 import client from '../data/client'
-import { Button } from '@mui/material'
 import Link from 'next/link'
 import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
 
@@ -43,7 +42,7 @@ function Ourpartner(props) {
                 }
             </div>
             <div className={`flex justify-center ${props.btnD}`}>
-                <button className='rounded-full bg-[#11009E] px-10 py-3 text-white hover:bg-[#513eff]'>
+                <button className='rounded-full bg-[#11009E] px-10 py-3 text-white hover:bg-[#513eff] transition duration-500'>
                 <Link href='/services'>View All Clients <ArrowCircleDownIcon/></Link>
                 </button>
             </div>

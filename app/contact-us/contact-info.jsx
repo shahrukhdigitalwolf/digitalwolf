@@ -83,7 +83,7 @@ function ContactInfo() {
                                     <TextField className='bg-white' fullWidth id="outlined-multiline-flexible" label="Write a message" rows={3} multiline />
                                 </div>
                                 <div className="w-[100%] flex justify-center">
-                                    <Button className="bg-[#11009E] text-[#fff] hover:bg-[#10009ec3] hover:text-white px-10 py-3">Submit</Button>
+                                    <Button className="bg-[#11009E] text-[#fff] hover:bg-[#513eff] transition duration-500 px-10 py-3">Submit</Button>
                                 </div>
                             </div>
                         </div>
