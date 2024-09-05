@@ -12,7 +12,7 @@ function page() {
       <div className='bg-[#F4F4FF] py-10 my-6'>
         <DigitalMeeting/>
       </div>
-      <Ourpartner/>
+      <Ourpartner btnD="hidden"/>
     </>
   )
 }

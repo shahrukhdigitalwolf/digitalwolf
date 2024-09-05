@@ -1,8 +1,9 @@
 'use client'
-import { Button, colors, MenuItem, TextField } from '@mui/material'
 import React from 'react'
+import { Button, colors, MenuItem, TextField } from '@mui/material'
 
 function Form() {
+
     const style = {
             '& label': {
                 color: '#fff',
@@ -46,15 +47,42 @@ function Form() {
         <div className='mb-3 bg-[#CBC9FF] py-3 clipPath'>
             <p className='font-semibold text-[23px] text-center'>Enquiry Form</p>
         </div>
-        <form className='px-8 py-10'>
+        <form onSubmit={handleSubmit} className='px-8 py-10'>
             <div className='mb-3'>
-                <TextField fullWidth id="standard-basic" label="Name" variant="standard" sx={style} />
+                <TextField 
+                    fullWidth 
+                    id="standard-basic" 
+                    label="Name" 
+                    type='text' 
+                    name='name' 
+                    variant="standard" 
+                    sx={style} 
+                    required
+                />
             </div>
             <div className='mb-3'>
-                <TextField fullWidth id="standard-basic" label="Phone Number" variant="standard" sx={style} />
+                <TextField 
+                    fullWidth 
+                    id="standard-basic" 
+                    label="Phone Number" 
+                    type='text' 
+                    name='phone' 
+                    variant="standard" 
+                    sx={style} 
+                    required
+                />
             </div>
             <div className='mb-3'>
-                <TextField fullWidth id="standard-basic" label="Email Id" variant="standard" sx={style} />
+                <TextField 
+                    fullWidth 
+                    id="standard-basic" 
+                    label="Email Id" 
+                    type='email' 
+                    name='email' 
+                    variant="standard"
+                    sx={style} 
+                    required
+                />
             </div>
             <div className='mb-3'>
                 <TextField
@@ -62,9 +90,11 @@ function Form() {
                     select
                     fullWidth
                     label="Services"
+                    name='service'
                     variant="standard"
                     helperText="Please select interested Service"
                     sx={style}
+                    required
                     >
                     {
                         services.map((val,i)=>{

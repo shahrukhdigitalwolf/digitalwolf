@@ -13,7 +13,6 @@ import {
   PopoverPanel,
 } from '@headlessui/react'
 import {
-  ArrowPathIcon,
   Bars3Icon,
   ChartPieIcon,
   ClipboardDocumentListIcon,
@@ -23,10 +22,11 @@ import {
   CodeBracketIcon,
   DevicePhoneMobileIcon,
   EnvelopeIcon,
-  FingerPrintIcon,
   PresentationChartBarIcon,
   VideoCameraIcon,
   XMarkIcon,
+  CogIcon,
+  ChatBubbleLeftRightIcon,
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, PhoneIcon } from '@heroicons/react/20/solid'
 import Link from 'next/link'
@@ -35,7 +35,7 @@ import Image from 'next/image'
 const products = [
   { name: 'Digital Marketing', description: 'Get a better understanding of your traffic', href: '/digital-marketing-services', icon: ChartPieIcon },
   { name: 'SEO Services', description: 'Speak directly to your customers', href: '/seo-services', icon: PresentationChartBarIcon },
-  { name: 'SMO Services', description: 'Your customers’ data will be safe and secure', href: '/smo-services', icon: FingerPrintIcon },
+  { name: 'SMO Services', description: 'Your customers’ data will be safe and secure', href: '/smo-services', icon: CogIcon },
   { name: 'Website Development', description: 'Connect with third-party tools', href: '/website-development', icon: CodeBracketIcon },
   { name: 'PPC Marketing', description: 'Build strategic funnels that will convert', href: '/ppc-marketing-services', icon: CursorArrowRaysIcon },
   { name: 'Mobile App Development', description: 'Build strategic funnels that will convert', href: '/mobile-app-development-company', icon: DevicePhoneMobileIcon },
@@ -43,7 +43,7 @@ const products = [
   { name: 'Facebook Ad Services', description: 'Build strategic funnels that will convert', href: '/facebook-ad-services', icon: VideoCameraIcon },
   { name: 'Content Writing Services', description: 'Build strategic funnels that will convert', href: '/content-writing-services', icon: ClipboardDocumentListIcon },
   { name: 'Software Development', description: 'Build strategic funnels that will convert', href: '/software-development-company', icon: CommandLineIcon },
-  { name: 'Bulk Message Services', description: 'Build strategic funnels that will convert', href: '/bulk-message-services', icon: EnvelopeIcon },
+  { name: 'Bulk Message Services', description: 'Build strategic funnels that will convert', href: '/bulk-message-services', icon: ChatBubbleLeftRightIcon },
 ]
 const callsToAction = [
   { name: 'Mail Us', href: 'mailto:info@digitalwolf.co.in', icon: EnvelopeIcon },
@@ -141,7 +141,7 @@ export default function Header() {
           <Link href="/events" className="text-sm font-semibold leading-6 text-gray-900 py-5">
             Happy To Share
           </Link>
-          <Link href="#" className="text-sm font-semibold leading-6 text-gray-900 py-5">
+          <Link href="/blogs" className="text-sm font-semibold leading-6 text-gray-900 py-5">
             Blog
           </Link>
           <Link href="/contact-us" className="text-sm font-semibold leading-6 text-gray-900 py-5">
