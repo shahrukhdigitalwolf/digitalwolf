@@ -46,9 +46,9 @@ function Blogs() {
                 {
                     blogs.map((ele,i)=>{
                         return(
-                        <div className='w-[100%] lg:w-[33%] px-3'>
+                        <div key={i} className='w-[100%] lg:w-[33%] px-3'>
                             <div className='border-[1px] border-[#6f6f6f] rounded-lg p-3'>
-                                <div key={i} className='overflow-hidden'>
+                                <div  className='overflow-hidden'>
                                     <Link href={`/blogs/${ele.link}`}>
                                         <Image className='w-full hover:scale-110 transition-all' src={ele.img} alt='' width={400} height={100} />
                                     </Link>
