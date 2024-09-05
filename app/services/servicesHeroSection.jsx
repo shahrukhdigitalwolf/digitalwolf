@@ -8,7 +8,7 @@ function ServicesHeroSection() {
             <div className='flex flex-wrap'>
                 <div className='w-[100%]'>
                     <div className='flex justify-center gap-x-3 mb-8'>
-                        <Link href="" className='text-[#11009E]'>Home</Link> - <p>Services</p>
+                        <Link href="/" className='text-[#11009E]'>Home</Link> - <p>Services</p>
                     </div>
                 </div>
                 <div className='w-[100%] lg:w-[50%]'>

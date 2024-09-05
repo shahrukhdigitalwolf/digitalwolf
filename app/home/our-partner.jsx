@@ -42,9 +42,9 @@ function Ourpartner(props) {
                     })
                 }
             </div>
-            <div className='flex justify-center'>
+            <div className={`flex justify-center ${props.btnD}`}>
                 <button className='rounded-full bg-[#11009E] px-10 py-3 text-white hover:bg-[#513eff]'>
-                <Link href='/'>View All Clients <ArrowCircleDownIcon/></Link>
+                <Link href='/services'>View All Clients <ArrowCircleDownIcon/></Link>
                 </button>
             </div>
         </div>
