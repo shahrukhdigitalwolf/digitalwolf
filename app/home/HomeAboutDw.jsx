@@ -45,7 +45,7 @@ function HomeAboutDw() {
                             </div>
                         </div>
                         <div className='pt-5'>
-                            <Button className='block mx-auto my-10 rounded-full bg-white px-10 py-3 text-[#513eff] hover:bg-[#513eff] hover:text-white transition duration-1000'>
+                            <Button className='block mx-auto my-10 rounded-full bg-white px-10 py-3 text-[#513eff] hover:bg-[#513eff] hover:text-white transition duration-500'>
                                 Learn More <ArrowCircleRightIcon/> 
                             </Button>
                         </div>

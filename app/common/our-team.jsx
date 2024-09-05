@@ -76,7 +76,7 @@ function OurTeam() {
         <div className='text-center pt-16'>
             <p className='text-[23px]'>Hi, Want To Join With DW ? We Are Hiring!</p>
             <p className='pb-5'>Duis aute voluptate velitipsam volup.</p>
-            <Link href="/" className='bg-[#11009E] text-[#fff] py-3 px-6 rounded-3xl'>Contact Us For Join</Link>
+            <Link href="/" className='bg-[#11009E] text-[#fff] py-3 px-6 rounded-3xl hover:bg-[#513eff] transition duration-500'>Contact Us For Join</Link>
         </div>
     </div>
   )

@@ -23,7 +23,7 @@ function AboutDw() {
                         <p>Leading marketing professionals are the ones with whom we can proudly collaborate to form an innovative and dynamic team worldwide.  Our deep-experienced partners bring unique ideas for us in the market space. </p>
                     </div>
                     <div className='py-5'>
-                        <button className='rounded-full bg-[#11009E] px-10 py-3 text-white hover:bg-white hover:text-[#11009E]'>
+                        <button className='rounded-full bg-[#11009E] px-10 py-3 text-white hover:bg-[#513eff] transition duration-500'>
                         Learn More<ArrowCircleDownIcon/>
                         </button>
                     </div>
