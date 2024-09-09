@@ -31,7 +31,7 @@ const graphicsDesign = [
                 id:1,
                 keyPointsCardHead : 'Standout Brand Image',
                 keyPointsCardDesc : 'We are a renowned graphic designing company in Kolkata and our customized and distinctive designs for brand logos stand out from your competitors actions. We check the niche, competition, target market, and audiences before designing your brands logo.',
-                marginTop : 'lg:mt-56',
+                marginTop : 'lg:mt-0',
             },
             {
                 id:2,
@@ -43,7 +43,13 @@ const graphicsDesign = [
                 id:3,
                 keyPointsCardHead : 'Cutting Edge Services',
                 keyPointsCardDesc : 'We provide cutting-edge services by using specialized technological tools to create reports that combine appropriate data about your website and your opponents. Today, digital Wolf guides businesses with personalized logo designs and redesigns.',
-                marginTop : 'lg:mt-0',
+                marginTop : 'lg:mt-56',
+            },
+            {
+                id:4,
+                keyPointsCardHead : 'Unique Design Solutions',
+                keyPointsCardDesc : 'We offer advanced solutions which are only made for your brand. Thus, our focus on visually attractive designs captures your brands spirit. Also, we uplift your brand to make a lasting impression, blending creativity with exclusive designs. Our team constantly provides fresh and impactful design ideas.',
+                marginTop : 'lg:mt-80',
             },
         ],
 

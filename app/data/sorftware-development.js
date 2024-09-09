@@ -31,7 +31,7 @@ const softwareDevelopment = [
                 id:1,
                 keyPointsCardHead : 'Strengthened by resources',
                 keyPointsCardDesc : 'Our company is renowned for completing projects on time. We provide all necessary assets, skills, advantages, knowledge, and experience that are beneficial for our clients concerning software development architecture.',
-                marginTop : 'lg:mt-56',
+                marginTop : 'lg:mt-0',
             },
             {
                 id:2,
@@ -43,7 +43,13 @@ const softwareDevelopment = [
                 id:3,
                 keyPointsCardHead : 'Comprehensive management',
                 keyPointsCardDesc : 'Our clients have always been pleased by our IT solutions as they have found these services creative and uniquely refreshing because of the exceptional services of our expert team. Our team of software developers and project managers collaborate to ensure the smooth run of the full workforce.',
-                marginTop : 'lg:mt-0',
+                marginTop : 'lg:mt-56',
+            },
+            {
+                id:4,
+                keyPointsCardHead : 'Smart Support',
+                keyPointsCardDesc : 'We continuously support all your software development projects. Our expert team is available for you 24/7 to help with any issues. We assure our clients of continuous improvements and support. This commitment allows the software to remain secure, efficient, and advanced, which can give long-term value to our clients.',
+                marginTop : 'lg:mt-80',
             },
         ],
 

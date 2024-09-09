@@ -3,13 +3,13 @@ const mobileAppDevelopment = [
         headText1 : '[App Development Details Page]',
         headText2 : 'App Development Services',
         headText3 : 'The best app development company in India',
-        featureImg : '/img/services/business-people-working-laptop-meeting.jpg',
+        featureImg : '/img/services/app/app-development-feature.jpg',
 
         ourServicesText1 : 'Develop a relatable mobile app with the best Mobile App Development company in India ',
         ourServicesText2 : 'In this rapidly evolving digital landscape, developing a relatable mobile app for your business will help you connect with more customers. It works as a catalyst for your business growth and helps you to identify how the world connects through this mobile app. We understand the strong impacts of mobile apps on your business marketing and we are committed to producing the best potential app to deliver you. ',
-        ourServicesImg1 : '/img/services/businesspeople.jpg',
-        ourServicesImg2 : '/img/services/searching-engine-optimizing.jpg',
-        ourServicesImg3 : '/img/services/seo-links.jpg',
+        ourServicesImg1 : '/img/services/app/app-development-1.jpg',
+        ourServicesImg2 : '/img/services/app/app-development-2.jpg',
+        ourServicesImg3 : '/img/services/app/app-development-3.jpg',
         ourServicesText3 : 'Best hybrid app development company in Kolkata',
         ourServicesText4 : 'We as a custom mobile app development company in Kolkata, develop a versatile mobile application that suits the diverse needs across industries. Our expert team of developers, designers, and strategists collaborate with you to give the best app idea that aligns with your business goals.  ',
 
@@ -31,7 +31,7 @@ const mobileAppDevelopment = [
                 id:1,
                 keyPointsCardHead : 'All-inclusive mobile app development',
                 keyPointsCardDesc : 'Digital Wolf is one of the top mobile app development companies in India. We as a mobile app developer offer independence and adaptability according to the customers’ expectations. Moreover, our company has reputed expertise from the working experience of a variety of projects. ',
-                marginTop : 'lg:mt-56',
+                marginTop : 'lg:mt-0',
             },
             {
                 id:2,
@@ -43,7 +43,13 @@ const mobileAppDevelopment = [
                 id:3,
                 keyPointsCardHead : 'Take your business higher ',
                 keyPointsCardDesc : 'Our goal is to support everyone from thriving startups to our business clients. Since we know what is needed to create a flawless mobile application, our experts have created numerous mobile apps across many different categories. Our sincerely crafted mobile applications can advance your company.',
-                marginTop : 'lg:mt-0',
+                marginTop : 'lg:mt-56',
+            },
+            {
+                id:4,
+                keyPointsCardHead : 'Constant Support',
+                keyPointsCardDesc : 'Apart from developing apps, we also provide end-to-end support. Our services cover every tiny detail, from concept designing to post-launch maintenance. Thus, your app will stay functional so that you can make any changes. This complete support gifts you with a smooth and successful app development experience.',
+                marginTop : 'lg:mt-80',
             },
         ],
         
