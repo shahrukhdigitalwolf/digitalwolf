@@ -31,7 +31,7 @@ const contentWriting = [
                 id:1,
                 keyPointsCardHead : 'Relevancy is maintained',
                 keyPointsCardDesc : 'Our expert team can design customized websites that are suited for your company and can fulfill your needs. We develop efficient content to engage your audience, foster their trust in your brand, and influence their purchasing choices. You must hire our content marketing experts to manage your websites blogs, educational articles, and other engaging materials.',
-                marginTop : 'lg:mt-56',
+                marginTop : 'lg:mt-0',
             },
             {
                 id:2,
@@ -43,7 +43,13 @@ const contentWriting = [
                 id:3,
                 keyPointsCardHead : 'Get the best content marketing services',
                 keyPointsCardDesc : 'You can draw the attention of visitors to your site by a blend of original concepts with high-quality materials. Our skilled writers have a pool of knowledge in a variety of industry sectors and are efficient in providing high-quality materials to derive your online business.',
-                marginTop : 'lg:mt-0',
+                marginTop : 'lg:mt-56',
+            },
+            {
+                id:4,
+                keyPointsCardHead : 'Catchy Content Ideas',
+                keyPointsCardDesc : `We are your best friend in creating captivating content to capture a large audience. We produce crisp and informative text according to your brands voice. From blog posts to product descriptions, we have all the solutions for relevant and SEO-optimized content. Thus, your website can gain popularity through quality content.`,
+                marginTop : 'lg:mt-80',
             },
         ],
         

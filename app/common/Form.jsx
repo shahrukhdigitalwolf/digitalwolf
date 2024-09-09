@@ -47,7 +47,7 @@ function Form() {
         <div className='mb-3 bg-[#CBC9FF] py-3 clipPath'>
             <p className='font-semibold text-[23px] text-center'>Enquiry Form</p>
         </div>
-        <form onSubmit={handleSubmit} className='px-8 py-10'>
+        <form className='px-8 py-10'>
             <div className='mb-3'>
                 <TextField 
                     fullWidth 

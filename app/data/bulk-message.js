@@ -31,7 +31,7 @@ const bulkMessage = [
                 id:1,
                 keyPointsCardHead : 'Long-lasting customer relations',
                 keyPointsCardDesc : 'As a top SMS marketing agency, Digital Wolf creates and constructs text marketing software. Our created software is user-friendly and enables you to send mass SMS. Our new text messaging platform helps you to manage your SMS campaigns.',
-                marginTop : 'lg:mt-56',
+                marginTop : 'lg:mt-0',
             },
             {
                 id:2,
@@ -43,7 +43,13 @@ const bulkMessage = [
                 id:3,
                 keyPointsCardHead : 'A 360-degree solution to SMS marketing',
                 keyPointsCardDesc : 'Our SEO specialist is always ready to post original content to blogs, articles, social bookmarking sites, and directories to increase your brand’s authority and website’s regular audiences. ',
-                marginTop : 'lg:mt-0',
+                marginTop : 'lg:mt-56',
+            },
+            {
+                id:4,
+                keyPointsCardHead : 'Effective Targeting and Customization',
+                keyPointsCardDesc : 'Digital Wolfs SMS marketing services send targeted messages based on customer preferences. We help you effectively section your audience. Thus, you can increase engagement and conversion rates. Well-crafted content helps you to resonate with your audience so that you can create stronger customer relationships and improve marketing results.',
+                marginTop : 'lg:mt-80',
             },
         ],
         
