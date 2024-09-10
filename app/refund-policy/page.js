@@ -14,7 +14,7 @@ const refundPolicy = () => {
         </div>
         <div className='mx-auto px-28 mb-10'>
           <ul className="list-disc pl-5">
-            <li>Our policy lasts 7 days. If 7 days have gone by since your purchase, unfortunately we can’t offer you a refund or exchange.</li>
+            <li>Our policy lasts 7 days. If 7 days have gone by since your purchase, unfortunately we cant offer you a refund or exchange.</li>
             <li>To be eligible for a return, your item must be unused and in the same condition that you received it. It must also be in the original packaging.</li>
             <li>Several types of goods are exempt from being returned. Perishable goods such as food, flowers, newspapers or magazines cannot be returned. We also do not</li>
             <li>accept products that are intimate or sanitary goods, hazardous materials, or flammable liquids or gases.</li>
@@ -50,8 +50,8 @@ const refundPolicy = () => {
         </div>
         <div className='mx-auto px-28 mb-10'>
           <ul className="list-disc pl-5">
-            <li>If you haven’t received a refund yet, first check your bank account again.Then contact your credit card company, it may take some time before your refund is officially posted.</li>
-            <li>Next contact your bank. There is often some processing time before a refund is posted. If you’ve done all of this and you still have not received your refund yet, please contact us at info@digitalwolf.co.in.</li>
+            <li>If you haven't received a refund yet, first check your bank account again.Then contact your credit card company, it may take some time before your refund is officially posted.</li>
+            <li>Next contact your bank. There is often some processing time before a refund is posted. If you've done all of this and you still have not received your refund yet, please contact us at info@digitalwolf.co.in.</li>
           </ul>
         </div>
 
@@ -81,8 +81,8 @@ const refundPolicy = () => {
         </div>
         <div className='mx-auto px-28 mb-10'>
           <ul className="list-disc pl-5">
-            <li>If the item was marked as a gift when purchased and shipped directly to you, you’ll receive a gift credit for the value of your return. Once the returned item is received, a gift certificate will be mailed to you.</li>
-            <li>If the item wasn’t marked as a gift when purchased, or the gift giver had the order shipped to themselves to give to you later, we will send a refund to the gift giver and he will find out about your return.</li>
+            <li>If the item was marked as a gift when purchased and shipped directly to you, you'll receive a gift credit for the value of your return. Once the returned item is received, a gift certificate will be mailed to you.</li>
+            <li>If the item wasn't marked as a gift when purchased, or the gift giver had the order shipped to themselves to give to you later, we will send a refund to the gift giver and he will find out about your return.</li>
           </ul>
         </div>
 
@@ -95,7 +95,7 @@ const refundPolicy = () => {
             <li>To return your product, you should mail your product to: 22/263, Jodhpur Park, Tagore Park Road, Kolkata: 700045.</li>
             <li>You will be responsible for paying for your own shipping costs for returning your item. Shipping costs are non-refundable. If you receive a refund, the cost of return shipping will be deducted from your refund.</li>
             <li>Depending on where you live, the time it may take for your exchanged product to reach you, may vary.</li>
-            <li>If you are shipping an item over INR 75000, you should consider using a trackable shipping service or purchasing shipping insurance. We don’t guarantee that we will receive your returned item.</li>
+            <li>If you are shipping an item over INR 75000, you should consider using a trackable shipping service or purchasing shipping insurance. We don't guarantee that we will receive your returned item.</li>
           </ul>
         </div>
       </div>
