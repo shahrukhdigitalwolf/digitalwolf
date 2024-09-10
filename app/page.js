@@ -25,10 +25,10 @@ export default function Home() {
           <div className="bg-[#322854] clipPath pb-40 pt-10 text-[#ffffff]">
             <HowWeWork/>
           </div>
-          <div className="bg-[#EAE9FF] clipPath pb-40 pt-10">
-            <Testimonial/>
+          <Testimonial/>
+          <div className="mt-5">
+            <Faq/>
           </div>
-          <Faq/>
       </main>
     </>
   );

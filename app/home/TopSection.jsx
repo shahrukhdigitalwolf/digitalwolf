@@ -11,11 +11,12 @@ function TopSection() {
             <div className='flex flex-wrap'>
                 <div className='w-[100%] lg:w-[50%] flex justify-evenly flex-col gap-y-8 py-5'>
                     <div>
-                        <h1 className='text-[35px] leading-[40px]'>Impact On Results<br/>
+                        <h1 className='text-[30px] lg:text-[35px] leading-[40px]'>Impact On Results<br/>
                         Your <strong>Digital Success</strong> Partners</h1>
+                        <Image src='/img/line.png' alt='' width={450} height={100} />
                     </div>
                     <div>
-                        <p>
+                        <p className='lg:text-[20px]'>
                             We are a top digital marketing agency that will take your company 
                             to the next level of productivity and profitability. The services will 
                             make your brand more visible and will attract more customers.
