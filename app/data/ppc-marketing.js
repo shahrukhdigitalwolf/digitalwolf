@@ -32,7 +32,7 @@ const ppcMarketing = [
                 id:1,
                 keyPointsCardHead : 'Paid Search Advertising',
                 keyPointsCardDesc : 'Your brand can get profit from our PPC search advertising services by increasing ROI. We, the best PPC advertising agency in Kolkata use focused and cost-effective methods of advertising while making financial decisions.',
-                marginTop : 'lg:mt-56',
+                marginTop : 'lg:mt-0',
             },
             {
                 id:2,
@@ -44,7 +44,13 @@ const ppcMarketing = [
                 id:3,
                 keyPointsCardHead : 'Expect Exception from Us',
                 keyPointsCardDesc : 'As we are the best PPC company in Kolkata, our services involve a thorough analysis of our clients businesses and Pay-Per-Click advertising goals. You can say our excellent productivity is the result of our specialized and raveled strategies.',
-                marginTop : 'lg:mt-0',
+                marginTop : 'lg:mt-56',
+            },
+            {
+                id:4,
+                keyPointsCardHead : 'PPC Campaign Management',
+                keyPointsCardDesc : 'Along with focusing on targeting the right audience, we also tweak bids for every campaign. Thus, by continually refining your ads, you can reach potential customers. Also, we check the click-through rate, average position, and cost-per-click. Trust us to gain more preferred traffic to your website.',
+                marginTop : 'lg:mt-80',
             },
         ],
 

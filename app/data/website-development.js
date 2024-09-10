@@ -32,7 +32,7 @@ const websiteDevelopment = [
                 id:1,
                 keyPointsCardHead : 'Expert solutions in web development',
                 keyPointsCardDesc : 'As we are the best website development company in India, you can find a team of professionals with years of experience in this industry at Digital Wolf. They use the most recent tools and technology to build an innovative website which is aimed at a variety of uses to solve your purpose.',
-                marginTop : 'lg:mt-56',
+                marginTop : 'lg:mt-0',
             },
             {
                 id:2,
@@ -44,7 +44,13 @@ const websiteDevelopment = [
                 id:3,
                 keyPointsCardHead : 'Facebook applications',
                 keyPointsCardDesc : 'We are the best website development company in India and also a top provider of web and application development services for Facebook, mobile, and the web.',
-                marginTop : 'lg:mt-0',
+                marginTop : 'lg:mt-56',
+            },
+            {
+                id:4,
+                keyPointsCardHead : 'Custom Web Applications',
+                keyPointsCardDesc : 'At Digital Wolf, we develop custom web applications as per your needs. We emphasize user-friendly, responsive, and secure applications. These applications strengthen your online presence. Also, we assure you that your web application will run smoothly with your existing systems with an efficient user experience.',
+                marginTop : 'lg:mt-80',
             },
         ],
 

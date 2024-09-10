@@ -31,7 +31,7 @@ const digitalMarketing = [
                 id:1,
                 keyPointsCardHead : 'Link building services along with SEO',
                 keyPointsCardDesc : 'Our digital marketing specialist will post original content for blogs, articles, social bookmarking sites, directories and submission platforms to increase authority and subsequent rankings of your brand.',
-                marginTop : 'lg:mt-56',
+                marginTop : 'lg:mt-0',
             },
             {
                 id:2,
@@ -43,7 +43,13 @@ const digitalMarketing = [
                 id:3,
                 keyPointsCardHead : 'Regular website reviews',
                 keyPointsCardDesc : 'We as a top digital marketing company in Kolkata concentrate on the monthly review of your brand’s website which results in a customized and prioritized digital marketing action plan for your website. We plan for the digital marketing strategies that will produce speedy results for you.',
-                marginTop : 'lg:mt-0',
+                marginTop : 'lg:mt-56',
+            },
+            {
+                id:4,
+                keyPointsCardHead : 'Competitor analysis',
+                keyPointsCardDesc : 'Our digital marketing services include competitor analysis to identify industry leaders and understand their strategies. We develop a master plan to outperform your competitors by thoroughly checking their strategy. This helps your brand in the market with unique opportunities and engagement that are consistently effective and adaptive.',
+                marginTop : 'lg:mt-80',
             },
         ],
         
