@@ -7,22 +7,23 @@ import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
+import { useMyContext } from '../context/MyContext';
 
 export default function PopupForm() {
-  const [open, setOpen] = React.useState(false);
+  const {popup, openPopup} = useMyContext()
 
-  const openPopup = () => {
-    setOpen(true);
-  };
+  const handleOpenPopup = () =>{
+    openPopup(true);
+  }
 
   React.useEffect(()=>{
     setTimeout(() => {
-      openPopup();
+      handleOpenPopup();
     }, 10000);
   }, [])
   
   const handleClose = () => {
-    setOpen(false);
+    openPopup(false);
   };
 
   return (
@@ -31,7 +32,7 @@ export default function PopupForm() {
         Open form dialog
       </Button> */}
       <Dialog
-        open={open}
+        open={popup}
         onClose={handleClose}
         PaperProps={{
           component: 'form',

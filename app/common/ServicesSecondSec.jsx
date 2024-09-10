@@ -1,9 +1,14 @@
+'use client'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import SubHeading from './sub-heading'
+import { Button } from '@mui/material'
+import { useMyContext } from '../context/MyContext'
+import { ArrowRightCircleIcon } from '@heroicons/react/24/outline'
 
 function ServicesSecondSec(props) {
+    const {openPopup} = useMyContext();
   return (
     <div className='container mx-auto px-5'>
         <div>
@@ -31,7 +36,7 @@ function ServicesSecondSec(props) {
         <div className='flex flex-wrap gap-y-5 py-5'>
             <div className='w-[100%] lg:w-[50%] px-3'>
                 <p className='text-[25px] pb-5'>{props.ourServicesText3}</p>
-                <Link href='/' className='border-[1px] border-[#11009E] text-[#11009E] hover:bg-[#11009E] hover:text-[#fff] transition-all duration-[.5s] py-2 px-5 rounded-3xl'>Join Us Today</Link>
+                <Button onClick={()=> openPopup(true)} className='bg-[#5A53F4] text-white hover:bg-[#11009E] hover:text-[#fff] transition-all duration-[.5s] py-2 px-5 rounded-3xl'>Join Us Today <ArrowRightCircleIcon width={25}/></Button>
             </div>
             <div className='w-[100%] lg:w-[50%] px-3'>
                 <p>{props.ourServicesText4}</p>

@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "./common/Header";
 import Footer from "./common/Footer";
 import PopupForm from "./common/Popup";
+import { ContextProvider } from "./context/MyContext";
 
 const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
@@ -40,14 +41,16 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-        <Header/>
-        {children}
-        <Footer/>
-        <PopupForm/>
+        <ContextProvider>
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          />
+            <Header/>
+            {children}
+            <Footer/>
+            <PopupForm/>
+        </ContextProvider>
       </body>
     </html>
   );

@@ -1,8 +1,40 @@
 'use client'
-import React from 'react'
+import React, { useState } from 'react'
 import { Button, colors, MenuItem, TextField } from '@mui/material'
 
 function Form() {
+
+    const [formData, setFormData] = useState({
+        name: '',
+        phone:'',
+        email: '',
+        service:'',
+      });
+    
+      const handleChange = (e) => {
+        setFormData({
+          ...formData,
+          [e.target.name]: e.target.value,
+        });
+      };
+    
+      const handleSubmit = async (e) => {
+        e.preventDefault();
+        try {
+          const response = await fetch('/api/submit-form', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(formData),
+          });
+    
+          const data = await response.json();
+          alert(data.message);
+        } catch (error) {
+          alert('Failed to submit form');
+        }
+      };
 
     const style = {
             '& label': {
@@ -55,6 +87,8 @@ function Form() {
                     label="Name" 
                     type='text' 
                     name='name' 
+                    value={formData.name}
+                    onChange={handleChange}
                     variant="standard" 
                     sx={style} 
                     required
@@ -67,6 +101,8 @@ function Form() {
                     label="Phone Number" 
                     type='text' 
                     name='phone' 
+                    value={formData.phone}
+                    onChange={handleChange}
                     variant="standard" 
                     sx={style} 
                     required
@@ -79,6 +115,8 @@ function Form() {
                     label="Email Id" 
                     type='email' 
                     name='email' 
+                    value={formData.email}
+                    onChange={handleChange}
                     variant="standard"
                     sx={style} 
                     required
@@ -91,6 +129,8 @@ function Form() {
                     fullWidth
                     label="Services"
                     name='service'
+                    value={formData.service}
+                    onChange={handleChange}
                     variant="standard"
                     helperText="Please select interested Service"
                     sx={style}
@@ -108,7 +148,7 @@ function Form() {
                 </TextField>
             </div>
             <div className='mb-3'>
-                <Button className='bg-[#E3E3FF] text-[#11009E] hover:bg-[#11009E] hover:text-white transition duration-500 px-20 py-3 block mx-auto'>Apply Now</Button>
+                <Button type="submit" className='bg-[#E3E3FF] text-[#11009E] hover:bg-[#11009E] hover:text-white transition duration-500 px-20 py-3 block mx-auto'>Apply Now</Button>
             </div>
         </form>
         
