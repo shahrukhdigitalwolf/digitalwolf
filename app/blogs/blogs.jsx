@@ -1,11 +1,24 @@
-import React from 'react'
+'use client'
+import { useEffect, useState } from 'react';
 import SubHeading from '../common/sub-heading'
-import Image from 'next/image'
+/* import Image from 'next/image' */
 import Link from 'next/link'
-import { ArrowRightCircleIcon } from '@heroicons/react/24/outline'
+/* import { ArrowRightCircleIcon } from '@heroicons/react/24/outline' */
 
 function Blogs() {
-    const blogs = [
+    const [posts, setPosts] = useState([]);
+    useEffect(() => {
+        const fetchPosts = async () => {
+          const res = await fetch(`/blogData.json`);
+          const data = await res.json();
+          console.log(data,'data');
+          
+          setPosts(data.posts);
+        };
+    
+        fetchPosts();
+      }, []);
+   /*  const blogs = [
         {
             id:1,
             img:'/img/blogs/blog-1.jpg',
@@ -38,11 +51,23 @@ function Blogs() {
             date:'23 Oct 2024',
             link:'digital-marketing-in-india',
         },
-    ]
+    ] */
   return (
     <div className='container mx-auto px-5'>
         <SubHeading text='Blogs'/>
-        <div className='flex flex-wrap gap-y-5'>
+        <div>
+      <h1>Blog Posts</h1>
+      <ul>
+        {posts.map((post) => (
+          <li key={post.slug}>
+            <Link href={`/blogs/${post.slug}`}>
+              {post.title}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </div>
+        {/* <div className='flex flex-wrap gap-y-5'>
                 {
                     blogs.map((ele,i)=>{
                         return(
@@ -70,7 +95,7 @@ function Blogs() {
                     )
                    }) 
                 }
-        </div>
+        </div> */}
     </div>
   )
 }
