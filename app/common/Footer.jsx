@@ -57,9 +57,9 @@ function Footer() {
                         <Link href='/about-us'>About Us</Link>
                         <Link href='/services'>Our Services</Link>
                         <Link href='/blogs'>Blog</Link>
-                        <p>Term & Condition</p>
-                        <p>Privacy Policy</p>
-                        <p>Refund Policy</p>
+                        <Link href='/term-condition'>Term & Condition</Link>
+                        <Link href='/privacy-policy'>Privacy Policy</Link>
+                        <Link href='/refund-policy'>Refund Policy</Link>
                         <p>FAQ</p>
                     </div>
                 </div>
