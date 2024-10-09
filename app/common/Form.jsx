@@ -21,14 +21,15 @@ function Form() {
       const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-          const response = await fetch('/api/submit-form', {
+          const response = await fetch('api/submit-form', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
             },
             body: JSON.stringify(formData),
           });
-    
+            console.log(response,'res');
+            
           const data = await response.json();
           alert(data.message);
         } catch (error) {
@@ -79,79 +80,80 @@ function Form() {
         <div className='mb-3 bg-[#CBC9FF] py-3 clipPath'>
             <p className='font-semibold text-[23px] text-center'>Enquiry Form</p>
         </div>
-        <form className='px-8 py-10'>
-            <div className='mb-3'>
-                <TextField 
-                    fullWidth 
-                    id="standard-basic" 
-                    label="Name" 
-                    type='text' 
-                    name='name' 
-                    value={formData.name}
-                    onChange={handleChange}
-                    variant="standard" 
-                    sx={style} 
-                    required
-                />
-            </div>
-            <div className='mb-3'>
-                <TextField 
-                    fullWidth 
-                    id="standard-basic" 
-                    label="Phone Number" 
-                    type='text' 
-                    name='phone' 
-                    value={formData.phone}
-                    onChange={handleChange}
-                    variant="standard" 
-                    sx={style} 
-                    required
-                />
-            </div>
-            <div className='mb-3'>
-                <TextField 
-                    fullWidth 
-                    id="standard-basic" 
-                    label="Email Id" 
-                    type='email' 
-                    name='email' 
-                    value={formData.email}
-                    onChange={handleChange}
-                    variant="standard"
-                    sx={style} 
-                    required
-                />
-            </div>
-            <div className='mb-3'>
-                <TextField
-                    id="standard-select-currency"
-                    select
-                    fullWidth
-                    label="Services"
-                    name='service'
-                    value={formData.service}
-                    onChange={handleChange}
-                    variant="standard"
-                    helperText="Please select interested Service"
-                    sx={style}
-                    required
-                    >
-                    {
-                        services.map((val,i)=>{
-                            return(
-                                <MenuItem key={i} value={val.name}>
-                                    {val.name}
-                                </MenuItem>
-                            )
-                        })
-                    }
-                </TextField>
-            </div>
-            <div className='mb-3'>
-                <Button type="submit" className='bg-[#E3E3FF] text-[#11009E] hover:bg-[#11009E] hover:text-white transition duration-500 px-20 py-3 block mx-auto'>Apply Now</Button>
-            </div>
-        </form>
-        
+        <div className='px-8 py-10'>
+            <form onSubmit={handleSubmit}>
+                <div className='mb-3'>
+                    <TextField 
+                        fullWidth 
+                        id="standard-basic" 
+                        label="Name" 
+                        type='text' 
+                        name='name' 
+                        value={formData.name}
+                        onChange={handleChange}
+                        variant="standard" 
+                        sx={style} 
+                        required
+                    />
+                </div>
+                <div className='mb-3'>
+                    <TextField 
+                        fullWidth 
+                        id="standard-basic" 
+                        label="Phone Number" 
+                        type='text' 
+                        name='phone' 
+                        value={formData.phone}
+                        onChange={handleChange}
+                        variant="standard" 
+                        sx={style} 
+                        required
+                    />
+                </div>
+                <div className='mb-3'>
+                    <TextField 
+                        fullWidth 
+                        id="standard-basic" 
+                        label="Email Id" 
+                        type='email' 
+                        name='email' 
+                        value={formData.email}
+                        onChange={handleChange}
+                        variant="standard"
+                        sx={style} 
+                        required
+                    />
+                </div>
+                <div className='mb-3'>
+                    <TextField
+                        id="standard-select-currency"
+                        select
+                        fullWidth
+                        label="Services"
+                        name='service'
+                        value={formData.service}
+                        onChange={handleChange}
+                        variant="standard"
+                        helperText="Please select interested Service"
+                        sx={style}
+                        required
+                        >
+                        {
+                            services.map((val,i)=>{
+                                return(
+                                    <MenuItem key={i} value={val.name}>
+                                        {val.name}
+                                    </MenuItem>
+                                )
+                            })
+                        }
+                    </TextField>
+                </div>
+                <div className='mb-3'>
+                    <Button type="submit" className='bg-[#E3E3FF] text-[#11009E] hover:bg-[#11009E] hover:text-white transition duration-500 px-20 py-3 block mx-auto'>Apply Now</Button>
+                </div>
+            </form>
+        </div>
     </div>
   )
 }

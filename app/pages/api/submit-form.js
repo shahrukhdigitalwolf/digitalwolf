@@ -1,26 +1,17 @@
-// pages/api/submit-form.js
 import connectToDatabase from '@/app/lib/mongodb';
-import FormData from '@/app/models/formData';
+import FormData from '@/app/models/FormData';
 
 export default async function handler(req, res) {
+  await connectToDatabase();
+
   if (req.method === 'POST') {
-    const { name, phone, email, service } = req.body;
-
     try {
-      await connectToDatabase();
-      const formData = new FormData({
-        name,
-        phone,
-        email,
-        service,
-      });
-
-      await formData.save();
-      res.status(200).json({ message: 'Form submitted successfully!' });
+      const formData = await FormData.create(req.body);
+      res.status(201).json({ success: true, data: formData });
     } catch (error) {
-      res.status(500).json({ error: 'Failed to submit form' });
+      res.status(400).json({ success: false, error });
     }
   } else {
-    res.status(405).json({ error: 'Method not allowed' });
+    res.status(405).json({ success: false, error: 'Method not allowed' });
   }
 }

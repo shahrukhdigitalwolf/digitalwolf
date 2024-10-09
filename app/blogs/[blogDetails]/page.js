@@ -1,39 +1,21 @@
-'use client'
-import Head from 'next/head';
-import { usePathname } from 'next/navigation';
-import { useEffect, useState } from 'react';
+import BlogDetails from './blogDetails';
 
-function BlogPage() {
-  const slug = usePathname();
-  const [post, setPost] = useState(null);
-    
-  useEffect(() => {
-    const fetchPost = async () => {
-      const res = await fetch(`/blogData.json`);
-      const data = await res.json();
-      const foundPost = data.posts.find((post) => `/blogs/${post.slug}` === slug);
-      setPost(foundPost);
-    };
+// This function dynamically sets the meta tags using server-side data fetching
+export async function generateMetadata({ params }) {
+  const {blogDetails} = params;
+  
+  // Fetch the blog post data based on the slug
+  const res = await fetch(`http://localhost:3000/blogData.json`);
+  const data = await res.json();
+  const post = data.posts.find((post) => post.slug === blogDetails);
 
-    fetchPost();
-  }, [slug]);
-
-  if (!post) {
-    return <p>Loading...</p>;
-  }
-
-  return (
-    <>
-    <Head>
-        <title>My Blog</title>
-        <meta name="description" content={'Blog post'} />
-      </Head>
-    <div>
-      <h1>{post.title}</h1>
-      <p>{post.content}</p>
-    </div>
-    </>
-  );
+  return {
+    title: post ? post.title : 'Blog Post 1',
+    description: post ? post.content.slice(0, 150) : 'Blog post description',
+  };
 }
 
-export default BlogPage;
+// The BlogPage component is a client component, so we just render it here
+export default function Page() {
+  return <BlogDetails/>;
+}
